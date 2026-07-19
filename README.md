@@ -30,7 +30,7 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 <td width="42%" align="center">
 
 <a href="https://kfit.style/" target="_blank">
-  <img src="https://portfolio-website-7e1.pages.dev/images/kfit/image1.png" width="100%" alt="kfit.style 서비스 화면" />
+  <img src="assets/kfit-style-main.png" width="100%" alt="kfit.style — 사진 한 장으로 AI 퍼스널컬러 진단" />
 </a>
 
 </td>
