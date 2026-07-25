@@ -120,7 +120,7 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=nowonsang&show_icons=true&theme=default&hide_border=true" height="165" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=nowonsang&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true" height="165" />
 </div>
 
 <br/>
