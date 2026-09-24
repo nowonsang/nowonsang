@@ -29,34 +29,6 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 <tr>
 <td width="42%" align="center">
 
-<a href="https://kfit.style/" target="_blank">
-  <img src="assets/kfit-style-main.png" width="100%" alt="kfit.style — 사진 한 장으로 AI 퍼스널컬러 진단" />
-</a>
-
-</td>
-<td width="58%">
-
-### 🎨 kfit.style
-
-**AI 퍼스널컬러 & K-스타일 진단 서비스** &nbsp; <img src="https://img.shields.io/badge/1인%20개발%20·%20운영%20중-16A34A?style=flat-square" />
-
-사진 한 장으로 AI가 퍼스널컬러를 진단하고, 얼굴은 그대로 유지한 채 K-패션 전신 코디 6가지를 생성하는 웹 서비스입니다.
-
-- 🙋 기획 · 개발 · 배포 · 운영 **1인 풀사이클** 수행
-- 🤖 OpenAI 이미지 생성 파이프라인 직접 설계 · 운영
-- 🔐 Google OAuth 로그인 · 💳 Polar 결제 연동
-- 📈 GA4 · Microsoft Clarity 기반 사용자 행동 모니터링
-
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" /> <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" /> <img src="https://img.shields.io/badge/Cloudflare%20Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white" /> <img src="https://img.shields.io/badge/Polar-0062FF?style=flat-square" />
-
-<a href="https://kfit.style/" target="_blank"><img src="https://img.shields.io/badge/🌐%20서비스%20접속-kfit.style-16A34A?style=for-the-badge" /></a>
-<a href="https://portfolio-website-7e1.pages.dev/projects/kfit-style" target="_blank"><img src="https://img.shields.io/badge/📋%20프로젝트%20상세-포트폴리오-6C63FF?style=for-the-badge" /></a>
-
-</td>
-</tr>
-<tr>
-<td width="42%" align="center">
-
 <a href="https://quietown.com/" target="_blank">
   <img src="assets/quietown.png" width="100%" alt="Quietown — 함께 공부하는 3D 가상 스터디 공간" />
 </a>
@@ -79,6 +51,34 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Three.js%20·%20R3F-000000?style=flat-square&logo=threedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Zustand%20·%20TanStack%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" /> <img src="https://img.shields.io/badge/Cloudflare%20Workers%20·%20Durable%20Objects-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
 
 <a href="https://quietown.com/" target="_blank"><img src="https://img.shields.io/badge/🌐%20서비스%20접속-quietown.com-16A34A?style=for-the-badge" /></a>
+
+</td>
+</tr>
+<tr>
+<td width="42%" align="center">
+
+<a href="https://kfit.style/" target="_blank">
+  <img src="assets/kfit-style-main.png" width="100%" alt="kfit.style — 사진 한 장으로 AI 퍼스널컬러 진단" />
+</a>
+
+</td>
+<td width="58%">
+
+### 🎨 kfit.style
+
+**AI 퍼스널컬러 & K-스타일 진단 서비스** &nbsp; <img src="https://img.shields.io/badge/1인%20개발%20·%20운영%20중-16A34A?style=flat-square" />
+
+사진 한 장으로 AI가 퍼스널컬러를 진단하고, 얼굴은 그대로 유지한 채 K-패션 전신 코디 6가지를 생성하는 웹 서비스입니다.
+
+- 🙋 기획 · 개발 · 배포 · 운영 **1인 풀사이클** 수행
+- 🤖 OpenAI 이미지 생성 파이프라인 직접 설계 · 운영
+- 🔐 Google OAuth 로그인 · 💳 Polar 결제 연동
+- 📈 GA4 · Microsoft Clarity 기반 사용자 행동 모니터링
+
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" /> <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" /> <img src="https://img.shields.io/badge/Cloudflare%20Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white" /> <img src="https://img.shields.io/badge/Polar-0062FF?style=flat-square" />
+
+<a href="https://kfit.style/" target="_blank"><img src="https://img.shields.io/badge/🌐%20서비스%20접속-kfit.style-16A34A?style=for-the-badge" /></a>
+<a href="https://portfolio-website-7e1.pages.dev/projects/kfit-style" target="_blank"><img src="https://img.shields.io/badge/📋%20프로젝트%20상세-포트폴리오-6C63FF?style=for-the-badge" /></a>
 
 </td>
 </tr>
