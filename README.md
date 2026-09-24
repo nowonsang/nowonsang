@@ -27,7 +27,7 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 
 <table>
 <tr>
-<td width="42%" align="center">
+<td width="42%" align="center" valign="top">
 
 <a href="https://quietown.com/" target="_blank">
   <img src="assets/quietown.png" width="100%" alt="Quietown — 함께 공부하는 3D 가상 스터디 공간" />
@@ -55,7 +55,7 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 </td>
 </tr>
 <tr>
-<td width="42%" align="center">
+<td width="42%" align="center" valign="top">
 
 <a href="https://kfit.style/" target="_blank">
   <img src="assets/kfit-style-main.png" width="100%" alt="kfit.style — 사진 한 장으로 AI 퍼스널컬러 진단" />
