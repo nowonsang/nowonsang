@@ -54,6 +54,34 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 
 </td>
 </tr>
+<tr>
+<td width="42%" align="center">
+
+<a href="https://quietown.com/" target="_blank">
+  <img src="assets/quietown.png" width="100%" alt="Quietown — 함께 공부하는 3D 가상 스터디 공간" />
+</a>
+
+</td>
+<td width="58%">
+
+### 🏡 Quietown
+
+**3D 멀티플레이 가상 스터디 공간** &nbsp; <img src="https://img.shields.io/badge/1인%20개발%20·%20운영%20중-16A34A?style=flat-square" />
+
+나만의 3D 아바타로 라운지·도서관·독서실 등 다양한 맵에 모여 함께 공부하고, 포모도로 세션을 완료해 모은 코인으로 아바타를 꾸미는 웹 서비스입니다.
+
+- 🙋 기획 · 개발 · 배포 · 운영 **1인 풀사이클** 수행
+- 🌐 Durable Objects 기반 실시간 멀티플레이 · 채팅 · WebRTC 화상 대화
+- 🧊 Three.js(R3F) 3D 맵 7종 · AI 3D 에셋 파이프라인(리깅 · 애니메이션) 구축
+- 🪙 서버 권위 경제(코인 · XP · 레벨) · 🔐 Google · Kakao · GitHub 소셜 로그인
+- 🌏 한국어 · 일본어 다국어 지원
+
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Three.js%20·%20R3F-000000?style=flat-square&logo=threedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Zustand%20·%20TanStack%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" /> <img src="https://img.shields.io/badge/Cloudflare%20Workers%20·%20Durable%20Objects-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
+
+<a href="https://quietown.com/" target="_blank"><img src="https://img.shields.io/badge/🌐%20서비스%20접속-quietown.com-16A34A?style=for-the-badge" /></a>
+
+</td>
+</tr>
 </table>
 
 <br/>
