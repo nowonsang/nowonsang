@@ -4,7 +4,8 @@
 
 ### 안녕하세요! 모바일 풀스택 개발자 **노원상**입니다 👋
 
-Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 풀사이클을 다루는 6년 차 개발자입니다.
+Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 풀사이클을 다루는 **7년 차** 개발자입니다.<br/>
+상용 모바일 솔루션을 자체 플랫폼으로 대체했고, AI 도구를 실무에 깊게 적용해 1인이 팀 규모의 결과를 냅니다.
 
 <a href="https://portfolio-website-7e1.pages.dev/" target="_blank">
   <img src="https://img.shields.io/badge/🌐%20포트폴리오-접속-6C63FF?style=for-the-badge&logoColor=white" alt="포트폴리오 접속" />
@@ -12,8 +13,16 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 
 <br/><br/>
 
+| 🏢 상용 솔루션 대체 | 🔁 서버 내재화 | 📱 운영 앱 | 🏆 NHN 해커톤 |
+| :---: | :---: | :---: | :---: |
+| **100%** | **285 API** | **10종+** | **59 : 1** |
+| 2인 · 5개월, 외부 종속성 0% | 클라이언트 무수정 전환 | Android · iOS, 기능 개선 100건+ | NAN 2026 본선 진출 |
+
+<br/>
+
 <!-- 탭 네비게이션 -->
 <a href="#projects"><img src="https://img.shields.io/badge/🚀%20개인%20서비스-2D2D2D?style=for-the-badge" /></a>
+<a href="#career"><img src="https://img.shields.io/badge/💼%20경력-2D2D2D?style=for-the-badge" /></a>
 <a href="#tech-stack"><img src="https://img.shields.io/badge/🛠️%20Tech%20Stack-2D2D2D?style=for-the-badge" /></a>
 <a href="#stats"><img src="https://img.shields.io/badge/📊%20GitHub%20Stats-2D2D2D?style=for-the-badge" /></a>
 
@@ -86,6 +95,30 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 
 <br/>
 
+<a name="career"></a>
+
+## 💼 경력 하이라이트
+
+#### 🏢 동화기업(주) · 모바일 Technical Lead &nbsp; <sub>2022.07 ~ 현재</sub>
+사내 Android · iOS 앱 10종 이상과 모바일 서버 · AWS 인프라를 2인 체제로 개발 · 운영
+
+- 🚀 **국내 1위 상용 모바일 솔루션(Morpheus)을 React Native · Expo 자체 플랫폼으로 100% 대체** — 2인 · 5개월, 외부 기술 종속성 0%
+- 🔁 **게이트웨이 서버 2종 Spring Boot 3.5 / Java 21 내재화** — 285개 API 클라이언트 무수정 전환, AWS CI/CD 구축
+- 📱 **영업 · 출고 앱 78개 화면을 51일 만에 1인 내재화** — OTA 배포 파이프라인으로 앱 재배포 없이 즉시 반영
+- 🎪 **전시회 키오스크 18일 개발** (Vue 3 · Nuxt 3 · AI 디자인 자동화) — 하루 참여자 512명, 전년 대비 5배
+- 🔐 AD → M365 OAuth 2.0 통합 로그인 구축 · Aurora MySQL 5.7 → 8.0 무중단 업그레이드
+
+#### 🏢 (주)더존비즈온 · 모바일 개발 &nbsp; <sub>2019.07 ~ 2022.01</sub>
+- 🌱 **회사 최초 React Native 도입** — 전자서명 앱 1인 개발, Redux 아키텍처 설계, 사내 교육 · 테크톡 주도
+- ⛓️ 과기정통부 · KISA 블록체인 국민 프로젝트 **WehagoOne** 개발 — 정부과제 성공
+- 🏛️ 강원도청 블록체인 DID 앱 **우리도**, 급여 · 근태 앱 **NAHAGO** 개발 · WEHAGO Android 고도화
+
+#### 🏆 수상 · 대외 활동
+- **NHN 해커톤 NAN 2026 : Next AI Network — 59:1 경쟁률 본선 진출** · 3D 멀티플레이 추리 게임 「Who is Human」 48시간 개발 ([기사](https://www.todaymild.com/news/articleView.html?idxno=38410))
+- 2018 한림대학교 SW 솔루션 공모전 금상 (팀)
+
+<br/>
+
 <a name="tech-stack"></a>
 
 ## 🛠️ Tech Stack
@@ -128,11 +161,18 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 
 #### 🤖 AI
 <p>
-  <img src="https://img.shields.io/badge/Claude%20·%20Cursor-D97757?style=flat-square&logo=claude&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenAI%20(ChatGPT%20·%20API)-412991?style=flat-square&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Claude%20Code%20(서브에이전트%20·%20팀%20·%20워크플로우%20·%20하네스)-D97757?style=flat-square&logo=claude&logoColor=white" />
+  <img src="https://img.shields.io/badge/Claude%20Agent%20SDK-D97757?style=flat-square&logo=claude&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" />
+  <img src="https://img.shields.io/badge/Figma%20MCP-F24E1E?style=flat-square&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAI%20(ChatGPT%20·%20API%20·%20gpt--image)-412991?style=flat-square&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/NVIDIA%20NIM%20(Nemotron)-76B900?style=flat-square&logo=nvidia&logoColor=white" />
   <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
-  <img src="https://img.shields.io/badge/생성형%20AI%20(이미지%20·%20영상%20·%20디자인)-8B5CF6?style=flat-square" />
 </p>
+
+<sub>🎨 생성형 콘텐츠 — Midjourney · Kling AI · Sora · HeyGen · Higgsfield · Tripo · Meshy · Suno · ElevenLabs · uxPilot</sub>
+
+> 💡 **AI로 서비스를 만들어 운영합니다** — kfit.style(OpenAI 이미지 파이프라인) · Quietown(NVIDIA NIM AI 일정 플래너), Figma MCP + uxPilot 디자인 자동화로 디자인 기간 15일 → 2일
 
 #### 🛡️ Security & Monitoring
 <p>
