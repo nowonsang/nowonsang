@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=노원상%20·%20nowonsang&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Mobile%20Fullstack%20Developer&descSize=18&descAlignY=58" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=노원상%20·%20nowonsang&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Web%20%2B%20Mobile%20Fullstack%20Developer&descSize=18&descAlignY=58" width="100%" />
 
-### 안녕하세요! 모바일 풀스택 개발자 **노원상**입니다 👋
+### 안녕하세요! 웹 + 모바일 풀스택 개발자 **노원상**입니다 👋
 
 Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 풀사이클을 다루는 **7년 차** 개발자입니다.<br/>
 상용 모바일 솔루션을 자체 플랫폼으로 대체했고, AI 도구를 실무에 깊게 적용해 1인이 팀 규모의 결과를 냅니다.
@@ -16,7 +16,7 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 | 🏢 상용 솔루션 대체 | 🔁 서버 내재화 | 📱 운영 앱 | 🏆 NHN 해커톤 |
 | :---: | :---: | :---: | :---: |
 | **100%** | **285 API** | **10종+** | **59 : 1** |
-| 2인 · 5개월, 외부 종속성 0% | 클라이언트 무수정 전환 | Android · iOS, 기능 개선 100건+ | NAN 2026 본선 진출 |
+| 2인 · 5개월, 외부 종속성 0% | 게이트웨이 2종 이관 · API Key 인증 도입 | Android · iOS, 기능 개선 100건+ | NAN 2026 본선 진출 |
 
 <br/>
 
@@ -100,11 +100,12 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 ## 💼 경력 하이라이트
 
 #### 🏢 동화기업(주) · 모바일 Technical Lead &nbsp; <sub>2022.07 ~ 현재</sub>
-사내 Android · iOS 앱 10종 이상과 모바일 서버 · AWS 인프라를 2인 체제로 개발 · 운영
+사내 Android · iOS 앱 10종 이상과 관련 웹 · 모바일 서버 · AWS 인프라를 2인 체제로 개발 · 운영
 
 - 🚀 **국내 1위 상용 모바일 솔루션(Morpheus)을 React Native · Expo 자체 플랫폼으로 100% 대체** — 2인 · 5개월, 외부 기술 종속성 0%
-- 🔁 **게이트웨이 서버 2종 Spring Boot 3.5 / Java 21 내재화** — 285개 API 클라이언트 무수정 전환, AWS CI/CD 구축
+- 🔁 **게이트웨이 서버 2종 Spring Boot 3.5 / Java 21 내재화** — 285개 API 이관 및 API Key 기반 인증 도입, AWS CI/CD 구축
 - 📱 **영업 · 출고 앱 78개 화면을 51일 만에 1인 내재화** — OTA 배포 파이프라인으로 앱 재배포 없이 즉시 반영
+- 🌐 **사내 웹 서비스 개발** — 엔터프라이즈 앱스토어(사내 앱 배포) 웹페이지 · 모바일 관리자 페이지 · 앱 개인정보처리방침 페이지
 - 🎪 **전시회 키오스크 18일 개발** (Vue 3 · Nuxt 3 · AI 디자인 자동화) — 하루 참여자 512명, 전년 대비 5배
 - 🔐 AD → M365 OAuth 2.0 통합 로그인 구축 · Aurora MySQL 5.7 → 8.0 무중단 업그레이드
 
