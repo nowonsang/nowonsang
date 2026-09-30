@@ -32,7 +32,7 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 
 <a name="projects"></a>
 
-## 🚀 운영 중인 개인 서비스
+## 🚀 개인 프로젝트
 
 <table>
 <tr>
@@ -60,6 +60,34 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Three.js%20·%20R3F-000000?style=flat-square&logo=threedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Zustand%20·%20TanStack%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" /> <img src="https://img.shields.io/badge/Cloudflare%20Workers%20·%20Durable%20Objects-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
 
 <a href="https://quietown.com/" target="_blank"><img src="https://img.shields.io/badge/🌐%20서비스%20접속-quietown.com-16A34A?style=for-the-badge" /></a>
+
+</td>
+</tr>
+<tr>
+<td width="42%" align="center">
+
+<a href="https://portfolio-website-7e1.pages.dev/projects/ai-pixel-office" target="_blank">
+  <img src="assets/virtual-office.png" width="100%" alt="AI 픽셀 오피스 — 팀장 · 개발자 AI 에이전트가 일하는 가상 사무실" />
+</a>
+
+</td>
+<td width="58%">
+
+### 🏢 AI 픽셀 오피스
+
+**지시 한 줄로 앱 여러 개를 동시에 고치는 AI 개발팀** &nbsp; <img src="https://img.shields.io/badge/1인%20개발%20·%20사용%20중-F5A623?style=flat-square" />
+
+앱 10개를 유지보수하며 개인정보 보관 기간 · 약관 버전 같은 정책이 바뀔 때마다 모든 앱을 하나씩 열어 같은 수정을 반복하던 일을 없애려고 만든 멀티 에이전트 가상 사무실입니다. 지시 한 줄이면 팀장 AI가 업무를 나누고, 앱별 담당 개발자 AI가 동시에 고친 뒤, 팀장이 종합 보고합니다.
+
+- ⚡ 시연: 앱 4개 정책 변경(보관 1년→3년 · 약관 v2026-10 · 재동의) → **약 2분 만에 파일 8개 일괄 수정 + 종합 보고서**
+- 🧭 팀원별 **담당 앱 폴더 · 스킬**을 근거로 팀장 AI가 앱별 담당자에게 자동 배정
+- 📋 팀장 AI 종합 보고 — 앱별 변경표 · 앱 간 불일치 · 남은 리스크 · 다음 액션
+- 🔍 어떤 파일의 어느 부분을 왜 바꿨는지 실시간 타임라인으로 기록
+- 🔐 셸 명령 차단 · 에이전트별 파일 접근 범위 제한 · DNS rebinding · CSRF 차단
+
+<img src="https://img.shields.io/badge/Claude%20Agent%20SDK-D97757?style=flat-square&logo=anthropic&logoColor=white" /> <img src="https://img.shields.io/badge/Next.js%2016-000000?style=flat-square&logo=nextdotjs&logoColor=white" /> <img src="https://img.shields.io/badge/React%2019-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Zustand-443E38?style=flat-square" /> <img src="https://img.shields.io/badge/SSE%20스트리밍-6B7280?style=flat-square" />
+
+<a href="https://portfolio-website-7e1.pages.dev/projects/ai-pixel-office" target="_blank"><img src="https://img.shields.io/badge/📂%20프로젝트%20상세-포트폴리오-F5A623?style=for-the-badge" /></a>
 
 </td>
 </tr>
