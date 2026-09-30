@@ -75,20 +75,24 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 
 ### 🏢 AI 픽셀 오피스
 
-**지시 한 줄로 앱 여러 개를 동시에 업그레이드하는 AI 개발팀** &nbsp; <img src="https://img.shields.io/badge/1인%20개발%20·%20사용%20중-F5A623?style=flat-square" />
+**여러 개의 앱을 동시에 유지보수 · 개선할 수 있는 AI 개발팀** &nbsp; <img src="https://img.shields.io/badge/1인%20개발%20·%20사용%20중-F5A623?style=flat-square" />
 
-앱 10개를 유지보수하며 스토어 정책(Android targetSdk · Xcode 버전)이 바뀔 때마다 모든 앱을 하나씩 열어 같은 업그레이드와 호환성 점검을 반복하던 일을 없애려고 만든 멀티 에이전트 가상 사무실입니다. 지시 한 줄이면 팀장 AI가 앱별 담당자에게 나누고, 개발자 AI들이 동시에 업그레이드한 뒤, 팀장이 종합 보고합니다.
+앱 10개를 유지보수하며 정책 · 버전이 바뀔 때마다 앱을 하나씩 고치던 반복 작업을 없애려고 만들었습니다. 지시 한 줄이면 팀장 AI가 나누고, 개발자 AI들이 동시에 고치고, 팀장이 검토해 보고합니다.
 
-- ⚡ 시연: 스택이 다른 앱 4개 「Android SDK 36 · Xcode 27 + 호환성 점검」 → **약 6분 만에 파일 29개 수정 + 종합 보고서**
-- 🧭 개발자별 **담당 앱 폴더 · 스킬**(RN · 네이티브 · WebView · NDK)을 근거로 팀장 AI가 자동 배정
-- 📋 팀장 AI 종합 보고 — 앱 간 Xcode · CI 불일치, 16KB 미지원 `.so` 출시 블로커까지 우선순위 정리
-- ➕ 앱이 늘면 **개발자 에이전트 추가**(기본 4명 → 최대 12명) — 전문 분야 · 담당 앱 · 스킬만 주면 팀장이 바로 배정
-- 🙋 갈림길에서는 에이전트가 멈추고 CEO에게 선택지 질문 → 답을 받아 이어서 진행
-- 🔐 셸 명령 차단 · 에이전트별 파일 접근 범위 제한 · DNS rebinding · CSRF 차단
+- ⚡ 시연: 앱 4개 「SDK 36 · Xcode 27 업그레이드」 → **약 6분 · 파일 29개 수정 + 종합 보고서**
+- ➕ 앱이 늘면 **개발자 에이전트 추가**(최대 12명) — 담당 앱 · 스킬만 주면 팀장이 바로 배정
+- 📋 팀장 보고서가 앱 간 불일치 · 출시 블로커까지 발견, 애매한 결정은 AI가 멈추고 질문
 
 <img src="https://img.shields.io/badge/Claude%20Agent%20SDK-D97757?style=flat-square&logo=anthropic&logoColor=white" /> <img src="https://img.shields.io/badge/Next.js%2016-000000?style=flat-square&logo=nextdotjs&logoColor=white" /> <img src="https://img.shields.io/badge/React%2019-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Zustand-443E38?style=flat-square" /> <img src="https://img.shields.io/badge/SSE%20스트리밍-6B7280?style=flat-square" />
 
 <a href="https://portfolio-website-7e1.pages.dev/projects/ai-pixel-office" target="_blank"><img src="https://img.shields.io/badge/📂%20프로젝트%20상세-포트폴리오-F5A623?style=for-the-badge" /></a>
+
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+
+<img src="assets/virtual-office-workflow.png" width="100%" alt="AI 픽셀 오피스 동작 흐름 — 지시 한 줄 → 팀장 AI 업무 나누기 → 개발자 AI 동시 작업 → 팀장 검토 → 보고서" />
 
 </td>
 </tr>
