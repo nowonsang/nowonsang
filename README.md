@@ -75,14 +75,14 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 
 ### 🏢 AI 픽셀 오피스
 
-**지시 한 줄로 앱 여러 개를 동시에 고치는 AI 개발팀** &nbsp; <img src="https://img.shields.io/badge/1인%20개발%20·%20사용%20중-F5A623?style=flat-square" />
+**지시 한 줄로 앱 여러 개를 동시에 업그레이드하는 AI 개발팀** &nbsp; <img src="https://img.shields.io/badge/1인%20개발%20·%20사용%20중-F5A623?style=flat-square" />
 
-앱 10개를 유지보수하며 개인정보 보관 기간 · 약관 버전 같은 정책이 바뀔 때마다 모든 앱을 하나씩 열어 같은 수정을 반복하던 일을 없애려고 만든 멀티 에이전트 가상 사무실입니다. 지시 한 줄이면 팀장 AI가 업무를 나누고, 앱별 담당 개발자 AI가 동시에 고친 뒤, 팀장이 종합 보고합니다.
+앱 10개를 유지보수하며 스토어 정책(Android targetSdk · Xcode 버전)이 바뀔 때마다 모든 앱을 하나씩 열어 같은 업그레이드와 호환성 점검을 반복하던 일을 없애려고 만든 멀티 에이전트 가상 사무실입니다. 지시 한 줄이면 팀장 AI가 앱별 담당자에게 나누고, 개발자 AI들이 동시에 업그레이드한 뒤, 팀장이 종합 보고합니다.
 
-- ⚡ 시연: 앱 4개 정책 변경(보관 1년→3년 · 약관 v2026-10 · 재동의) → **약 2분 만에 파일 8개 일괄 수정 + 종합 보고서**
-- 🧭 팀원별 **담당 앱 폴더 · 스킬**을 근거로 팀장 AI가 앱별 담당자에게 자동 배정
-- 📋 팀장 AI 종합 보고 — 앱별 변경표 · 앱 간 불일치 · 남은 리스크 · 다음 액션
-- 🔍 어떤 파일의 어느 부분을 왜 바꿨는지 실시간 타임라인으로 기록
+- ⚡ 시연: 스택이 다른 앱 4개 「Android SDK 36 · Xcode 27 + 호환성 점검」 → **약 6분 만에 파일 29개 수정 + 종합 보고서**
+- 🧭 개발자별 **담당 앱 폴더 · 스킬**(RN · 네이티브 · WebView · NDK)을 근거로 팀장 AI가 자동 배정
+- 📋 팀장 AI 종합 보고 — 앱 간 Xcode · CI 불일치, 16KB 미지원 `.so` 출시 블로커까지 우선순위 정리
+- 🙋 갈림길에서는 에이전트가 멈추고 CEO에게 선택지 질문 → 답을 받아 이어서 진행
 - 🔐 셸 명령 차단 · 에이전트별 파일 접근 범위 제한 · DNS rebinding · CSRF 차단
 
 <img src="https://img.shields.io/badge/Claude%20Agent%20SDK-D97757?style=flat-square&logo=anthropic&logoColor=white" /> <img src="https://img.shields.io/badge/Next.js%2016-000000?style=flat-square&logo=nextdotjs&logoColor=white" /> <img src="https://img.shields.io/badge/React%2019-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Zustand-443E38?style=flat-square" /> <img src="https://img.shields.io/badge/SSE%20스트리밍-6B7280?style=flat-square" />
