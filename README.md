@@ -16,7 +16,7 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 | 🧩 전 영역 풀스택 | 🏢 상용 솔루션 탈피 | 🌱 기술 리더십 | 🚀 1인 서비스 런칭 | 🏆 외부 검증 |
 | :---: | :---: | :---: | :---: | :---: |
 | **모바일 · 웹 · 서버 · AI** | **국내 1위 → 자체 플랫폼** | **회사 최초 RN 도입** | **서비스 3개 운영** | **국책과제 · 59:1** |
-| 7년 차 · 앱 10+ · 웹 5+ · 서버 10+ 운영 | 앱 · 관리자 웹 · 푸시 서버를<br/>2인 · 5개월 만에 구축 | 더존비즈온 · 사내 기술 교육 주도 | 3D 메타버스 · AI 스타일링 · AI 오피스 | 과기정통부 · KISA 과제 성공 · NHN 해커톤 본선 |
+| 7년 차 · 앱 10+ · 웹 5+ · 서버 10+ 운영 | 앱 · 관리자 웹 · 푸시 서버를<br/>2인 · 5개월 만에 구축 | 더존비즈온 · 사내 기술 교육 주도 | Quietown · kfit.style · AI 픽셀 오피스 | 과기정통부 · KISA 과제 성공 · NHN 해커톤 본선 |
 
 <br/>
 
@@ -86,13 +86,6 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 <img src="https://img.shields.io/badge/Claude%20Agent%20SDK-D97757?style=flat-square&logo=anthropic&logoColor=white" /> <img src="https://img.shields.io/badge/Next.js%2016-000000?style=flat-square&logo=nextdotjs&logoColor=white" /> <img src="https://img.shields.io/badge/React%2019-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Zustand-443E38?style=flat-square" /> <img src="https://img.shields.io/badge/SSE%20스트리밍-6B7280?style=flat-square" />
 
 <a href="https://portfolio-website-7e1.pages.dev/projects/ai-pixel-office" target="_blank"><img src="https://img.shields.io/badge/📂%20프로젝트%20상세-포트폴리오-F5A623?style=for-the-badge" /></a>
-
-</td>
-</tr>
-<tr>
-<td colspan="2" align="center">
-
-<img src="assets/virtual-office-workflow.png" width="100%" alt="AI 픽셀 오피스 동작 흐름 — 지시 한 줄 → 팀장 AI 업무 나누기 → 개발자 AI 동시 작업 → 팀장 검토 → 보고서" />
 
 </td>
 </tr>
