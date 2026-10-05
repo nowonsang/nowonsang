@@ -55,6 +55,7 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 - 🌐 Durable Objects 기반 실시간 멀티플레이 · 채팅 · WebRTC 화상 대화
 - 🧊 Three.js(R3F) 3D 맵 7종 · AI 3D 에셋 파이프라인(리깅 · 애니메이션) 구축
 - 🪙 서버 권위 경제(코인 · XP · 레벨) · 🔐 Google · Kakao · GitHub 소셜 로그인
+- ⚡ **웹 성능 개선 루프 자동화** — Claude in Chrome + Chrome DevTools로 Core Web Vitals(LCP · INP · CLS) 측정 → 원인별 개선(이미지 최적화 · 캐싱 · 코드 분할 / 불필요한 재렌더링 제거) → 재측정으로 효과를 수치 확인
 - 🌏 한국어 · 일본어 다국어 지원
 
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Three.js%20·%20R3F-000000?style=flat-square&logo=threedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Zustand%20·%20TanStack%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" /> <img src="https://img.shields.io/badge/Cloudflare%20Workers%20·%20Durable%20Objects-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
