@@ -199,58 +199,119 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 
 #### 📱 Mobile
 <p>
-  <img src="https://img.shields.io/badge/React%20Native%20·%20Expo-61DAFB?style=flat-square&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Android%20(Java%20·%20Kotlin)-3DDC84?style=flat-square&logo=android&logoColor=white" />
-  <img src="https://img.shields.io/badge/iOS%20(Objective--C%20·%20Swift)-000000?style=flat-square&logo=apple&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hybrid%20App%20(JS%20↔%20Native%20Bridge)-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/React%20Native%20%C2%B7%20Expo-61DAFB?style=flat-square&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Expo%20Router%20%C2%B7%20Config%20Plugin-000020?style=flat-square&logo=expo&logoColor=white" />
+  <img src="https://img.shields.io/badge/New%20Architecture%20%C2%B7%20Hermes-61DAFB?style=flat-square&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Redux%20Toolkit%20%C2%B7%20Redux--Observable%20%C2%B7%20ReactiveX-764ABC?style=flat-square&logo=redux&logoColor=white" />
+  <img src="https://img.shields.io/badge/TanStack%20Query%20(React%20Query)-FF4154?style=flat-square&logo=reactquery&logoColor=white" />
+  <img src="https://img.shields.io/badge/axios%20%C2%B7%20AsyncStorage-5A29E4?style=flat-square&logo=axios&logoColor=white" />
+  <img src="https://img.shields.io/badge/%EC%9E%90%EC%B2%B4%20OTA%20(JS%20%EB%B2%88%EB%93%A4%20%EA%B5%90%EC%B2%B4)-555555?style=flat-square" />
+  <img src="https://img.shields.io/badge/Android%20(Java%20%C2%B7%20Kotlin)-3DDC84?style=flat-square&logo=android&logoColor=white" />
+  <img src="https://img.shields.io/badge/iOS%20(Objective--C%20%C2%B7%20Swift)-000000?style=flat-square&logo=apple&logoColor=white" />
+  <img src="https://img.shields.io/badge/Native%20Module%20(Kotlin%20%C2%B7%20Swift)-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
+  <img src="https://img.shields.io/badge/Android%20AAC%20%C2%B7%20RxJava%20%C2%B7%20Retrofit%20%C2%B7%20OkHttp%20%C2%B7%20Gson-3DDC84?style=flat-square&logo=android&logoColor=white" />
+  <img src="https://img.shields.io/badge/Clean%20Architecture-555555?style=flat-square" />
+  <img src="https://img.shields.io/badge/Hybrid%20App%20(JS%20%E2%86%94%20Native%20Bridge)-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Morpheus%20%C2%B7%20WKWebView%20%C2%B7%20react--native--webview-555555?style=flat-square" />
+  <img src="https://img.shields.io/badge/WebRTC%20%C2%B7%20Jitsi%20Meet-333333?style=flat-square&logo=webrtc&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite%20%C2%B7%20TypeORM%20%C2%B7%20SharedPreferences-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gradle%20%C2%B7%20CocoaPods%20%C2%B7%20NPM-CB3837?style=flat-square&logo=npm&logoColor=white" />
+  <img src="https://img.shields.io/badge/Blockchain%20(DID%20%C2%B7%20%EA%B0%84%ED%8E%B8%EA%B3%84%EC%95%BD%20%EC%95%B1)-121D33?style=flat-square" />
 </p>
 
 #### 🌐 Web Frontend
 <p>
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Vue%203%20·%20Nuxt%203-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript%20·%20JavaScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js%20(App%20Router)-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vue%203%20%C2%B7%20Nuxt%203%20(SSR%20%C2%B7%20Nitro)-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript%20%C2%B7%20JavaScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML%20%C2%B7%20CSS-E34F26?style=flat-square&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
   <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/React%20Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Zustand%20%C2%B7%20TanStack%20Query-443E38?style=flat-square" />
+  <img src="https://img.shields.io/badge/Pinia%20%C2%B7%20Composition%20API-FFD859?style=flat-square&logo=vuedotjs&logoColor=black" />
+  <img src="https://img.shields.io/badge/Three.js%20%C2%B7%20React%20Three%20Fiber-000000?style=flat-square&logo=threedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/glTF%20%EC%B5%9C%EC%A0%81%ED%99%94%20(gltf--transform%20%C2%B7%20Draco%20%C2%B7%20meshopt)-555555?style=flat-square" />
+  <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" />
+  <img src="https://img.shields.io/badge/Highcharts%20%C2%B7%20jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white" />
 </p>
 
 #### ⚙️ Backend
 <p>
-  <img src="https://img.shields.io/badge/Spring%20Boot%20·%20Java-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL%20·%20Aurora-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/RESTful%20API-009688?style=flat-square" />
-  <img src="https://img.shields.io/badge/JWT%20·%20OAuth%202.0-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring%20Boot%203.5%20%C2%B7%20Java%2021-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white" />
+  <img src="https://img.shields.io/badge/JPA%20%2F%20Hibernate%20%C2%B7%20MyBatis%20%C2%B7%20JdbcTemplate-59666C?style=flat-square&logo=hibernate&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gradle%20%C2%B7%20Maven-02303A?style=flat-square&logo=gradle&logoColor=white" />
+  <img src="https://img.shields.io/badge/DDD%204%EA%B3%84%EC%B8%B5%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-555555?style=flat-square" />
+  <img src="https://img.shields.io/badge/RESTful%20API%20%C2%B7%20Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black" />
+  <img src="https://img.shields.io/badge/JUnit%205%20%C2%B7%20Mockito%20%C2%B7%20MockMvc-25A162?style=flat-square&logo=junit5&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL%20%C2%B7%20Aurora%20%C2%B7%20MS--SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Supabase%20(PostgreSQL)-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/%EC%8B%A4%EC%8B%9C%EA%B0%84%20%ED%86%B5%EC%8B%A0%20(WebSocket%20%C2%B7%20WebRTC%20%C2%B7%20SSE)-555555?style=flat-square" />
+  <img src="https://img.shields.io/badge/%ED%91%B8%EC%8B%9C%20(FCM%20%C2%B7%20APNs)-DD2C00?style=flat-square&logo=firebase&logoColor=white" />
+  <img src="https://img.shields.io/badge/JWT%20%C2%B7%20OAuth%202.0-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" />
+  <img src="https://img.shields.io/badge/SOAP%20%EC%97%B0%EB%8F%99-555555?style=flat-square" />
+  <img src="https://img.shields.io/badge/Polar%20%EA%B2%B0%EC%A0%9C%20%C2%B7%20Resend%20%EB%A9%94%EC%9D%BC-555555?style=flat-square" />
 </p>
 
 #### ☁️ Infra & DevOps
 <p>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS%20(EC2%20%C2%B7%20RDS%20%C2%B7%20S3%20%C2%B7%20CloudFront%20%C2%B7%20CI%2FCD)-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS%20CodeCommit%20%C2%B7%20CodeBuild%20%C2%B7%20CodeDeploy-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring%20Cloud%20AWS-6DB33F?style=flat-square&logo=spring&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cloudflare%20(Pages%20%C2%B7%20Workers%20%C2%B7%20Durable%20Objects%20%C2%B7%20WAF)-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
   <img src="https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white" />
-  <img src="https://img.shields.io/badge/CI%20/%20CD-527FFF?style=flat-square" />
-  <img src="https://img.shields.io/badge/App%20Store%20·%20Google%20Play%20배포-0D96F6?style=flat-square&logo=appstore&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux%20%C2%B7%20Tomcat%20%C2%B7%20Shell%20Script-FCC624?style=flat-square&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/App%20Store%20%C2%B7%20Google%20Play%20%C2%B7%20Enterprise%20%EB%B0%B0%ED%8F%AC-0D96F6?style=flat-square&logo=appstore&logoColor=white" />
+  <img src="https://img.shields.io/badge/App%20Store%20Connect%20API%20%C2%B7%20Google%20Play%20In--App%20Update-414141?style=flat-square&logo=googleplay&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub%20%C2%B7%20GitLab%20%C2%B7%20CodeCommit-181717?style=flat-square&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/JIRA%20%C2%B7%20Confluence-0052CC?style=flat-square&logo=jira&logoColor=white" />
+  <img src="https://img.shields.io/badge/ESLint%20%C2%B7%20Prettier-4B32C3?style=flat-square&logo=eslint&logoColor=white" />
+  <img src="https://img.shields.io/badge/E2E%20%C2%B7%20%EC%9E%90%EB%8F%99%20%EA%B2%80%EC%A6%9D%20(Maestro%20%C2%B7%20Puppeteer%20%C2%B7%20Playwright)-2EAD33?style=flat-square" />
+  <img src="https://img.shields.io/badge/mitmproxy%20%C2%B7%20gitleaks-555555?style=flat-square" />
 </p>
 
 #### 🤖 AI
 <p>
-  <img src="https://img.shields.io/badge/Claude%20Code%20(서브에이전트%20·%20팀%20·%20워크플로우%20·%20하네스)-D97757?style=flat-square&logo=claude&logoColor=white" />
+  <img src="https://img.shields.io/badge/Claude%20Code%20(%EC%84%9C%EB%B8%8C%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%C2%B7%20%ED%8C%80%20%C2%B7%20%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0%20%C2%B7%20%ED%95%98%EB%84%A4%EC%8A%A4%20%C2%B7%20%EB%A3%A8%ED%94%84)-D97757?style=flat-square&logo=claude&logoColor=white" />
   <img src="https://img.shields.io/badge/Claude%20Agent%20SDK-D97757?style=flat-square&logo=claude&logoColor=white" />
   <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" />
   <img src="https://img.shields.io/badge/Figma%20MCP-F24E1E?style=flat-square&logo=figma&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenAI%20(ChatGPT%20·%20API%20·%20gpt--image)-412991?style=flat-square&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAI%20(ChatGPT%20%C2%B7%20API%20%C2%B7%20gpt--image)-412991?style=flat-square&logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/NVIDIA%20NIM%20(Nemotron)-76B900?style=flat-square&logo=nvidia&logoColor=white" />
   <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
+  <img src="https://img.shields.io/badge/Chrome%20%EC%9E%90%EB%8F%99%ED%99%94%20(Puppeteer%20%C2%B7%20CDP)-4285F4?style=flat-square&logo=googlechrome&logoColor=white" />
 </p>
 
-<sub>🎨 생성형 콘텐츠 — Midjourney · Kling AI · Sora · HeyGen · Higgsfield · Tripo · Meshy · Suno · ElevenLabs · uxPilot</sub>
+<sub>🎨 생성형 콘텐츠 — Midjourney · Kling AI · Sora · HeyGen · Higgsfield · Tripo · Meshy · Suno · ElevenLabs · Spline · uxPilot · Gamma · Genspark · NapKin · Rabbit</sub>
 
 > 💡 **AI로 서비스를 만들어 운영합니다** — kfit.style(OpenAI 이미지 파이프라인) · Quietown(NVIDIA NIM AI 일정 플래너), Figma MCP + uxPilot 디자인 자동화로 디자인 기간 15일 → 2일
 
+#### 🎨 Design
+<p>
+  <img src="https://img.shields.io/badge/Figma%20MCP-F24E1E?style=flat-square&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/21st.dev%20%C2%B7%20Magic%20UI%20%C2%B7%20Mobbin-000000?style=flat-square" />
+  <img src="https://img.shields.io/badge/Spline%203D%20%C2%B7%20uxPilot-555555?style=flat-square" />
+</p>
+
 #### 🛡️ Security & Monitoring
 <p>
-  <img src="https://img.shields.io/badge/암호화%20·%20인증%20(RSA+AES%20·%20Sign--Then--Encrypt)-8E44AD?style=flat-square" />
-  <img src="https://img.shields.io/badge/Spring%20Security%20·%20앱%20보안%20(Keystore%20·%20Keychain)-6DB33F?style=flat-square&logo=springsecurity&logoColor=white" />
-  <img src="https://img.shields.io/badge/모니터링%20(Crashlytics%20·%20Analytics%20·%20WhaTap%20·%20Clarity%20·%20Sentry)-E37400?style=flat-square&logo=googleanalytics&logoColor=white" />
+  <img src="https://img.shields.io/badge/%EC%95%94%ED%98%B8%ED%99%94%20%C2%B7%20%EC%9D%B8%EC%A6%9D%20(RSA+AES%20%C2%B7%20Sign--Then--Encrypt)-8E44AD?style=flat-square" />
+  <img src="https://img.shields.io/badge/Spring%20Security%20(%EC%BB%A4%EC%8A%A4%ED%85%80%20%ED%95%84%ED%84%B0%20%EC%B2%B4%EC%9D%B8%20%C2%B7%20Rate%20Limit)-6DB33F?style=flat-square&logo=springsecurity&logoColor=white" />
+  <img src="https://img.shields.io/badge/M365%20(Entra%20ID)%20OAuth%20%C2%B7%20Microsoft%20Graph-0078D4?style=flat-square" />
+  <img src="https://img.shields.io/badge/Supabase%20RLS%20(%ED%96%89%20%C2%B7%20%EC%BB%AC%EB%9F%BC%20%EA%B6%8C%ED%95%9C)-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/PIN%20%C2%B7%20%EC%83%9D%EC%B2%B4%20%EC%9D%B8%EC%A6%9D%20%C2%B7%20FIDO%20%C2%B7%20NICE%20%EB%B3%B8%EC%9D%B8%EC%9D%B8%EC%A6%9D-555555?style=flat-square" />
+  <img src="https://img.shields.io/badge/CSP%20%C2%B7%20%EB%B3%B4%EC%95%88%20%ED%97%A4%EB%8D%94%20%C2%B7%20Rate%20Limit%20(nuxt--security)-555555?style=flat-square" />
+  <img src="https://img.shields.io/badge/%EC%95%B1%20%EB%B3%B4%EC%95%88%20(Keystore%20%C2%B7%20Keychain%20%C2%B7%20Proguard%20%C2%B7%20Rooting%20Guard)-3DDC84?style=flat-square&logo=android&logoColor=white" />
+  <img src="https://img.shields.io/badge/%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81%20(Crashlytics%20%C2%B7%20Firebase%20Analytics%20%C2%B7%20GA4%20%C2%B7%20Clarity%20%C2%B7%20Sentry)-E37400?style=flat-square&logo=googleanalytics&logoColor=white" />
+  <img src="https://img.shields.io/badge/%EC%84%9C%EB%B2%84%20%C2%B7%20%EC%95%B1%20%EC%A7%80%ED%91%9C%20(WhaTap%20%C2%B7%20CloudWatch%20%C2%B7%20Android%20Vitals)-232F3E?style=flat-square" />
+</p>
+
+#### 🎮 Game Engine (학습 중)
+<p>
+  <img src="https://img.shields.io/badge/Godot-478CBF?style=flat-square&logo=godotengine&logoColor=white" />
+  <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white" />
 </p>
 
 <br/>
