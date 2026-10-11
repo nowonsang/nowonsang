@@ -143,14 +143,14 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
   - 모바일 관리자 웹(Nuxt 3 SSR · Pinia · Tailwind CSS): BFF 구조로 백엔드를 직접 노출하지 않고, 토큰 자동 갱신(동시 요청은 하나의 Promise로) · 브라우저에서 ZIP을 열어 OTA 번들 버전 추출 · Highcharts 통계 대시보드 구현
   - 사내 앱스토어: React로 앱별 카드 · Android/iOS 설치 버튼을 갖춘 반응형 · 한/영 통합 다운로드 페이지로 리뉴얼
 
-- 🙋 **개인 서비스로 AI 웹 서비스를 1인 풀사이클 운영 (React · Next.js · Three.js)**
-  - 3D 메타버스 가상 스터디 웹(Quietown) 개발 · 운영
-  - AI 퍼스널컬러 진단 웹(kfit.style) 개발 · 운영
-  - 멀티 에이전트 AI 개발팀(AI 픽셀 오피스) 개발 — 사내 앱 유지보수에 활용
+- 🙋 **개인 서비스 3종을 프론트 · 서버 · DB · 배포까지 1인 풀스택 개발 (React · Next.js · Three.js · Cloudflare · Supabase)**
+  - 3D 메타버스 스터디타운(Quietown): React Three Fiber 3D 클라이언트 · Durable Objects 실시간 서버(WebSocket · WebRTC 화상 대화) · Supabase(RLS · 서버 검증 보상)까지 1인 구현 · 운영 — 인트로 LCP 7.75 → 2.05초, 자동 검증 스크립트 90여 개로 배포 전 회귀 차단
+  - AI 퍼스널컬러 진단(kfit.style): React 프론트 · Cloudflare Workers 서버리스 API · Supabase 인증 · DB · Polar 결제를 1인 구축 · 운영 — OpenAI 이미지 파이프라인은 서버에서만 호출해 API 키를 노출하지 않고, GA4 · Clarity로 이탈 구간을 찾아 화면 개선
+  - 멀티 에이전트 AI 개발팀(AI 픽셀 오피스): Next.js 16(App Router) · SSE 스트리밍 · Claude Agent SDK로 1인 개발 — 지시 한 줄로 앱 4개 · 파일 29개를 약 6분 만에 동시 수정(시연), 사내 앱 유지보수에 활용
 
-- 🎮 **NHN GAME × AI 해커톤 3D 웹 게임 2종 개발 (React · Three.js · Cloudflare Durable Objects)**
-  - 3D 멀티플레이 추리 게임(Who is AI?) 개발 — 예선 59:1 본선 진출
-  - 3D 물리 추리 게임(Who is Human) 개발 — 48시간 해커톤 본선작
+- 🎮 **NHN GAME × AI 해커톤 3D 실시간 멀티플레이 웹 게임 2종 개발 (React · Three.js · Cloudflare Durable Objects)**
+  - Who is AI?(예선작 · 59:1 본선 진출): 3인 팀 PM 겸 실시간 서버 · 3D 월드 · 배포 담당 — 방마다 Durable Object 하나로 8명 좌표를 초당 10회 동기화, AI 생성 아바타 78MB → 1.21MB로 경량화
+  - Who is Human(본선작 · 48시간): 프론트엔드 · 3D 전담 — Three.js 물리 미니게임 4종 구현, InstancedMesh로 그리기 호출 130 → 5회 줄여 렌더링 최적화
 
 - 🤖 **AI 업무 루프 자동화로 반복 업무 효율화**<br/>
   AI가 결과를 확인하고 다시 고치는 루프를 직접 설계해 반복 업무를 자동화
