@@ -134,7 +134,7 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 - 🚀 **자체 모바일 플랫폼 구축** (Technical Lead · 핵심 2인 · 5개월) — React Native · Expo 앱, Vue 3 관리자 웹, Spring Boot + FCM v1 푸시 서버, AWS CI/CD까지 직접 설계 · 구축. 이후 내재화의 출발점
 - 🔁 **게이트웨이 서버 2종 1인 내재화** — 공통 GW를 벤더 라이브러리 없이 재작성하고 4-Layer(DDD) **사내 Spring Boot 표준 템플릿**으로 문서화 → 그 기준으로 영업물류 GW(44개 컨트롤러 · **285개 API**)를 약 1개월 만에 전환. 기존 API 계약 유지로 앱 변경은 API Key 추가로 최소화
 - 🔐 **끊김 없는 전환 설계** — M365 OAuth + 레거시 호환 JWT로 구 · 신 서버가 같은 토큰을 인정해 전환 중에도 인증 유지, 구/신 응답 diff 체크리스트로 전환 완료 판정
-- 📱 **앱 4종 단계적 내재화** — 웹앱 2종(D-RMS VN · Smart-Factory) WebView 전환 → 영업 · 출고 앱 D-Sales **78개 화면을 51일** 만에 1인 재구축(OTA 즉시 반영) → 코드를 재활용해 파트너 앱 D-Partners 구축 중
+- 📱 **앱 5종 내재화** (React Native · Expo) — 영업물류 앱 D-Sales **78개 화면을 51일** 만에 1인 재구축(OTA 즉시 반영), 그룹웨어 앱 GreenNet 전체 서비스 **16종을 2주** 만에 내재화, 대리점 · 파트너사 전용 앱 D-Partners 90여 화면 내재화(진행 중), 스마트팩토리 앱 Smart-Factory · 베트남 원재료 관리 앱 D-RMS VN은 JS ↔ Native 브릿지로 푸시 · 로그인 · 업데이트 체크 연결
 
 **웹 개발 — Vue 3 · Nuxt 3 · React**
 - 🖥️ **모바일 관리자 플랫폼 (Vue 3)** — API Key · Push · OTA · 디바이스 · 버전 관리와 실시간 모니터링 대시보드로, 외부 솔루션 콘솔에 의존하던 운영 업무를 사내 도구로 전환
