@@ -138,10 +138,10 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
   앱 공통 기반(React Native) · 관리자 웹(Vue 3) · 푸시 서버(Spring Boot) · AWS CI/CD를 직접 설계 · 구축 — 관리자 웹에서 OTA 배포 · 버전 · 디바이스 · 푸시를 직접 관리하고 푸시 · 앱스토어 통계 대시보드로 운영 상태를 확인, 이후 앱 · 서버 내재화의 기반 마련
   - 관리자 · 푸시 서버: Spring Boot 3.5 · JPA로 구축(관리자 API 110여 개) — iOS · Android 사내 배포 자동화, FCM HTTP v1 멀티캐스트 발송 · 무효 토큰 자동 정리
 
-- 🖥️ **사내 웹 서비스 3종 프론트엔드 개발 (React · Vue 3 · Nuxt 3)**
-  - 일렉 키오스크: 사내 부스 운영 키오스크 웹 개발 (18일, 현장 장애 0건 · 부스 참여자 전년 대비 5배)
-  - 사내 앱스토어: 사내 앱을 배포하는 Enterprise 앱스토어 웹페이지 개발
-  - 모바일 관리자 페이지: 사내 모바일 앱 관리자 플랫폼(Vue 3) 웹 개발
+- 🖥️ **사내 웹 서비스 3종 프론트엔드 개발 (Vue 3 · Nuxt 3 · React · TypeScript)**
+  - 인터배터리 전시 키오스크: Vue 3 · Nuxt 3 PWA로 18일 만에 1인 개발 — 한/영/중 3개 국어 · 세로/가로 반응형 · 3D 인트로 인터랙션, 오프라인 동작으로 현장 장애 0건 · 부스 참여자 전년 대비 5배
+  - 모바일 관리자 웹(Nuxt 3 SSR · Pinia · Tailwind CSS): BFF 구조로 백엔드를 직접 노출하지 않고, 토큰 자동 갱신(동시 요청은 하나의 Promise로) · 브라우저에서 ZIP을 열어 OTA 번들 버전 추출 · Highcharts 통계 대시보드 구현
+  - 사내 앱스토어: React로 앱별 카드 · Android/iOS 설치 버튼을 갖춘 반응형 · 한/영 통합 다운로드 페이지로 리뉴얼
 
 - 🙋 **개인 서비스로 AI 웹 서비스를 1인 풀사이클 운영 (React · Next.js · Three.js)**
   - 3D 메타버스 가상 스터디 웹(Quietown) 개발 · 운영
@@ -160,7 +160,7 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 
 - 📱 **외부 솔루션에 묶인 앱 5종을 자체 기술로 내재화 (React Native · Expo)**
   - 스마트팩토리 앱(Smart-Factory) · 베트남 원재료 관리 앱(D-RMS VN): 자바스크립트 네이티브 브릿지를 설계해 WebView 안에서 푸시 · 로그인 · 업데이트 체크 같은 네이티브 기능을 쓰도록 내재화
-  - 영업물류 앱(D-Sales): 주문 · 출고 · 배송 · A/S 78개 화면을 51일 만에 1인 재구축
+  - 영업물류 앱(D-Sales): 주문 · 출고 · 배송 · A/S 78개 화면을 51일 만에 React Native(New Architecture) · Expo로 1인 재구축 — 그룹웨어 앱과 로그인을 공유하는 SSO 네이티브 모듈(Kotlin · Swift)을 만들고, Maestro E2E를 원본 · 신규 앱에 같은 시나리오로 돌려 동작 검증
   - 파트너사 영업물류 앱(D-Partners): 대리점 · 파트너사용 90여 화면을 React Native(New Architecture) · Expo로 1인 내재화 — Kotlin · Swift 네이티브 모듈(인앱 업데이트 · 파일 다운로드 · 미리보기)을 직접 만들고, 자체 OTA로 스토어 배포 없이 수정 반영
   - 사내 그룹웨어 앱(GreenNet): 전자결재 · 게시판 · 회의실 등 전체 서비스 16종을 2주 만에 내재화, 기존 동작을 유지해 사용자가 낯설지 않게 전환
 
