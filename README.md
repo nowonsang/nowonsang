@@ -125,33 +125,67 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 
 <a name="career"></a>
 
-## 💼 경력 하이라이트
+## 💼 경력 · 핵심 경험
 
-#### 🏢 동화기업(주) · 모바일 Technical Lead &nbsp; <sub>2022.07 ~ 현재</sub>
-사내 Android · iOS 앱 10종 이상과 모바일 서버 · AWS 인프라를 2인 체제로 개발 · 운영하며, 외부 상용 솔루션(Morpheus)에 묶여 있던 앱 · 서버를 자사 기술로 옮기는 내재화를 주도
+| 회사 | 기간 | 역할 |
+| :--- | :---: | :--- |
+| 🏢 **동화기업(주)** | 2022.07 ~ 현재 | Web · Mobile 풀스택 Technical Lead — 사내 앱 10개+ · 웹 · 서버 · 인프라 사실상 단독 운영, 상용 솔루션 내재화 주도 |
+| 🏢 **(주)더존비즈온** | 2019.07 ~ 2022.01 | 모바일 개발 — React Native 사내 최초 도입 · 크로스플랫폼 신규 앱 4종 개발 · Android B2B 앱 유지보수, 사내 기술 교육 주도 |
 
-**상용 솔루션 탈피 — 플랫폼 · 서버 · 앱 순차 내재화**
-- 🚀 **자체 모바일 플랫폼 구축** (Technical Lead · 핵심 2인 · 5개월) — React Native · Expo 앱, Vue 3 관리자 웹, Spring Boot + FCM v1 푸시 서버, AWS CI/CD까지 직접 설계 · 구축. 이후 내재화의 출발점
-- 🔁 **게이트웨이 서버 2종 1인 내재화** — 공통 GW를 벤더 라이브러리 없이 재작성하고 4-Layer(DDD) **사내 Spring Boot 표준 템플릿**으로 문서화 → 그 기준으로 영업물류 GW(**285개 API**)를 약 1개월 만에 전환. 기존 API 계약 유지로 앱 수정은 최소화
-- 🔐 **끊김 없는 전환 설계** — M365 OAuth + 레거시 호환 JWT로 구 · 신 서버가 같은 토큰을 인정해 전환 중에도 인증 유지, 구/신 응답 diff 체크리스트로 전환 완료 판정
-- 📱 **앱 5종 내재화** (React Native · Expo) — 영업물류 앱 D-Sales **78개 화면을 51일** 만에 1인 재구축(OTA 즉시 반영), 그룹웨어 앱 GreenNet 전체 서비스 **16종을 2주** 만에 내재화, 대리점 · 파트너사 전용 앱 D-Partners 90여 화면 내재화(진행 중), 스마트팩토리 앱 Smart-Factory · 베트남 원재료 관리 앱 D-RMS VN은 JS ↔ Native 브릿지로 푸시 · 로그인 · 업데이트 체크 연결
+#### ⭐ 핵심 경험
 
-**웹 개발 — Vue 3 · Nuxt 3 · React**
-- 🖥️ **모바일 관리자 플랫폼 (Vue 3)** — API Key · Push · OTA · 디바이스 · 버전 관리와 실시간 모니터링 대시보드로, 외부 솔루션 콘솔에 의존하던 운영 업무를 사내 도구로 전환
-- 🌐 **사내 웹 서비스** — Enterprise 앱스토어(사내 앱 배포) 웹페이지 · 앱 개인정보처리방침 페이지
-- 🎪 **전시회 키오스크 웹 18일 1인 개발** (Vue 3 · Nuxt 3 · PWA) — AI 디자인 자동화로 디자인 15일 → 2일, 현장 에러 0건 · 하루 **512명 참여(전년 대비 5배)**
+- 🚀 **외부 모바일 솔루션(Morpheus)을 대체할 자체 풀스택 플랫폼 기반 구축 (핵심 2인 · 5개월)**<br/>
+  앱 공통 기반(React Native) · 관리자 웹(Vue 3) · 푸시 서버(Spring Boot) · AWS CI/CD를 직접 설계 · 구축 — 관리자 웹에서 OTA 배포 · 버전 · 디바이스 · 푸시를 직접 관리하고 푸시 · 앱스토어 통계 대시보드로 운영 상태를 확인, 이후 앱 · 서버 내재화의 기반 마련
+  - 관리자 · 푸시 서버: Spring Boot 3.5 · JPA로 구축(관리자 API 110여 개) — iOS · Android 사내 배포 자동화, FCM HTTP v1 멀티캐스트 발송 · 무효 토큰 자동 정리
 
-**운영 · 인프라 · 보안 — 앱 10종+ 무중단 운영**
-- 🔑 M365 통합 로그인 풀사이클 구축 · DB 메이저 버전 무중단 업그레이드 · 시크릿 외부화 · 최신 LTS(Spring Boot 3.5 · Java 21) 선제 업그레이드
-- 📦 Android SDK 29 → 36 · FCM v1 · Play Protect 등 스토어 정책 대응, 기능 개선 100건+, 베트남 앱 2종 1인 개발 · 스토어 출시
+- 🖥️ **사내 웹 서비스 3종 프론트엔드 개발 (React · Vue 3 · Nuxt 3)**
+  - 일렉 키오스크: 사내 부스 운영 키오스크 웹 개발 (18일, 현장 장애 0건 · 부스 참여자 전년 대비 5배)
+  - 사내 앱스토어: 사내 앱을 배포하는 Enterprise 앱스토어 웹페이지 개발
+  - 모바일 관리자 페이지: 사내 모바일 앱 관리자 플랫폼(Vue 3) 웹 개발
 
-#### 🏢 (주)더존비즈온 · 모바일 개발 &nbsp; <sub>2019.07 ~ 2022.01</sub>
-- 🌱 **회사 최초 React Native 도입** — 전자서명 앱 1인 개발, Redux 아키텍처 설계, 사내 교육 · 테크톡 주도
-- ⛓️ 과기정통부 · KISA 블록체인 국민 프로젝트 **WehagoOne** 개발 — 정부과제 성공
-- 🏛️ 강원도청 블록체인 DID 앱 **우리도**, 급여 · 근태 앱 **NAHAGO** 개발 · WEHAGO Android 고도화
+- 🙋 **개인 서비스로 AI 웹 서비스를 1인 풀사이클 운영 (React · Next.js · Three.js)**
+  - 3D 메타버스 가상 스터디 웹(Quietown) 개발 · 운영
+  - AI 퍼스널컬러 진단 웹(kfit.style) 개발 · 운영
+  - 멀티 에이전트 AI 개발팀(AI 픽셀 오피스) 개발 — 사내 앱 유지보수에 활용
+
+- 🎮 **NHN GAME × AI 해커톤 3D 웹 게임 2종 개발 (React · Three.js · Cloudflare Durable Objects)**
+  - 3D 멀티플레이 추리 게임(Who is AI?) 개발 — 예선 59:1 본선 진출
+  - 3D 물리 추리 게임(Who is Human) 개발 — 48시간 해커톤 본선작
+
+- 🤖 **AI 업무 루프 자동화로 반복 업무 효율화**<br/>
+  AI가 결과를 확인하고 다시 고치는 루프를 직접 설계해 반복 업무를 자동화
+  - [앱 내재화 · 리뉴얼 디자인 자동화](https://portfolio-website-7e1.pages.dev/automation#internalization-design): 디자인 규칙 → AI 시안 → 구현 → 구 · 신 앱 비교 루프로 GreenNet 전체 서비스 16종을 2주 만에 내재화
+  - [웹 성능 개선 루프 자동화](https://portfolio-website-7e1.pages.dev/automation#web-performance): Chrome 자동화로 측정 → 원인별 개선 → 같은 조건 재측정 (인트로 LCP 7.75 → 2.05초)
+  - [앱 유지보수 자동화](https://portfolio-website-7e1.pages.dev/automation#app-maintenance): AI 픽셀 오피스로 지시 한 줄에 여러 앱을 동시에 수정 · 점검
+
+- 📱 **외부 솔루션에 묶인 앱 5종을 자체 기술로 내재화 (React Native · Expo)**
+  - 스마트팩토리 앱(Smart-Factory) · 베트남 원재료 관리 앱(D-RMS VN): 자바스크립트 네이티브 브릿지를 설계해 WebView 안에서 푸시 · 로그인 · 업데이트 체크 같은 네이티브 기능을 쓰도록 내재화
+  - 영업물류 앱(D-Sales): 주문 · 출고 · 배송 · A/S 78개 화면을 51일 만에 1인 재구축
+  - 파트너사 영업물류 앱(D-Partners): 사내 계정이 없는 대리점 · 파트너사를 위해 자체 로그인 + PIN 인증을 새로 만들어 90여 화면 내재화 (진행 중)
+  - 사내 그룹웨어 앱(GreenNet): 전자결재 · 게시판 · 회의실 등 전체 서비스 16종을 2주 만에 내재화, 기존 동작을 유지해 사용자가 낯설지 않게 전환
+
+- 🔁 **외부 솔루션 · 구버전 서버 5종을 Spring Boot로 내재화 (Spring Boot 3.5 · Java 21 · AWS)**
+  - 게이트웨이 2종(공통 인증 · 영업물류): Morpheus → Spring Boot 3.5 · Java 21 전환, 영업물류 GW 285개 API 1인 전환, 앱 수정은 최소화
+  - 사내 그룹웨어(GreenNet) 모바일 서버: 구형 Spring 서버를 Spring Boot 3.5로 전환 — API 62개를 원본과 차이 0으로 맞추고 테스트 126개로 출력까지 검증해 기존 앱 수정 없이 교체 (진행 중)
+  - 보안: 최신 LTS(Spring Boot 3.5 · Java 21)로 선제 업그레이드, 시크릿을 코드 밖 보안 저장소로 분리, 인증 · 권한 체계와 로그 민감정보 마스킹 적용
+
+- 🌱 **더존비즈온 — 회사 최초 React Native 도입과 신규 앱 4종 개발 (React Native · TypeScript · Redux)**
+  - 블록체인 간편계약 앱(WehagoOne): 과기정통부 · KISA 「2020 블록체인 민간주도 국민 프로젝트」 선정 과제 성공
+  - 블록체인 DID 앱(우리도): 강원도청 플랫폼 — 음성/화상 통화 · 명함 촬영 구현 · 출시
+  - 전자서명 인증 앱(WehagoSign): 회사 최초 React Native 프로젝트 1인 개발 · Redux-Observable 아키텍처 설계
+  - 직원관리 앱(Nahago): 임금명세서 · 출퇴근 · 연말정산, 본인확인(PIN · Face ID · FIDO · NICE) · 전자서명 인증서
+  - 사내 React Native · Redux · Kotlin 교육과 테크톡 주도
+
+- 🛠️ **모바일 · 서버 단독 운영 체계 구축 (웹앱 · 하이브리드 앱 · 네이티브 앱 · Spring · AWS)**<br/>
+  사내 앱 10종+ 배포 · 정책 대응 · 기능 개선 100건+, AWS 인프라 운영과 DB 메이저 버전 무중단 업그레이드, 인증 · 시크릿 관리 · 로그 마스킹 등 보안 적용
+
+- 📈 **모니터링으로 문제를 먼저 찾아 고치는 운영 (Crashlytics · Clarity · GA4 · Sentry · WhaTap · CloudWatch)**
+  - 앱: Clarity 세션을 Crashlytics · GA4 오류에 연결해, 재현이 어려운 오류도 사용자가 겪은 화면 흐름 그대로 확인 (D-Sales · D-Partners)
+  - 서버: WhaTap · CloudWatch로 CPU · Heap · 디스크를 정기 점검 · 튜닝해 리소스 부족 장애를 사전에 차단
+  - 개인 서비스: GA4 · Clarity로 이탈 구간을 찾아 화면 개선(kfit.style), Sentry로 에러 추적(kfit.style · Quietown)
 
 #### 🏆 수상 · 대외 활동
-- **NHN 해커톤 NAN 2026 : Next AI Network — 59:1 경쟁률 본선 진출** · 3D 멀티플레이 추리 게임 「Who is Human」 48시간 개발 ([기사](https://www.todaymild.com/news/articleView.html?idxno=38410))
+- **NHN 해커톤 NAN 2026 : Next AI Network — 59:1 경쟁률 본선 진출** · 예선작 「Who is AI?」로 본선 진출 → 본선작 「Who is Human」 48시간 개발 ([기사](https://www.todaymild.com/news/articleView.html?idxno=38410))
 - 2018 한림대학교 SW 솔루션 공모전 금상 (팀)
 
 <br/>
