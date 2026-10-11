@@ -56,6 +56,7 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 - 🧊 Three.js(R3F) 3D 맵 7종 · AI 3D 에셋 파이프라인(리깅 · 애니메이션) 구축
 - 🪙 서버 권위 경제(코인 · XP · 레벨) · 🔐 Google · Kakao · GitHub 소셜 로그인
 - ⚡ **웹 성능 개선 루프 자동화** — Claude in Chrome + Chrome DevTools로 Core Web Vitals(LCP · INP · CLS) 측정 → 원인별 개선(이미지 최적화 · 캐싱 · 코드 분할 / 불필요한 재렌더링 제거) → 재측정으로 효과를 수치 확인
+- 📈 GA4 · Microsoft Clarity 사용자 행동 분석 · Sentry 에러 모니터링
 - 🌏 한국어 · 일본어 다국어 지원
 
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Three.js%20·%20R3F-000000?style=flat-square&logo=threedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Zustand%20·%20TanStack%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" /> <img src="https://img.shields.io/badge/Cloudflare%20Workers%20·%20Durable%20Objects-F38020?style=flat-square&logo=cloudflare&logoColor=white" /> <img src="https://img.shields.io/badge/결제-토스페이먼츠%20(오픈%20준비%20중)-0064FF?style=flat-square" />
@@ -109,7 +110,7 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 - 🙋 기획 · 디자인 · 개발 · 배포 · 운영 **1인 풀사이클** 수행
 - 🤖 OpenAI 이미지 생성 파이프라인 직접 설계 · 운영
 - 🔐 Google OAuth 로그인 · 💳 Polar 결제 연동
-- 📈 GA4 · Microsoft Clarity 기반 사용자 행동 모니터링
+- 📈 GA4 · Microsoft Clarity 사용자 행동 분석 · Sentry 에러 모니터링
 
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" /> <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" /> <img src="https://img.shields.io/badge/Cloudflare%20Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white" /> <img src="https://img.shields.io/badge/Polar-0062FF?style=flat-square" />
 
@@ -214,7 +215,7 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 <p>
   <img src="https://img.shields.io/badge/암호화%20·%20인증%20(RSA+AES%20·%20Sign--Then--Encrypt)-8E44AD?style=flat-square" />
   <img src="https://img.shields.io/badge/Spring%20Security%20·%20앱%20보안%20(Keystore%20·%20Keychain)-6DB33F?style=flat-square&logo=springsecurity&logoColor=white" />
-  <img src="https://img.shields.io/badge/모니터링%20(Crashlytics%20·%20Analytics%20·%20WhaTap%20·%20Clarity)-E37400?style=flat-square&logo=googleanalytics&logoColor=white" />
+  <img src="https://img.shields.io/badge/모니터링%20(Crashlytics%20·%20Analytics%20·%20WhaTap%20·%20Clarity%20·%20Sentry)-E37400?style=flat-square&logo=googleanalytics&logoColor=white" />
 </p>
 
 <br/>
