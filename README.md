@@ -148,34 +148,41 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 - GreenNet: 전자결재 · 게시판 등 16개 서비스 2주 만에 내재화, 기존 UX · 기능 유지
 - Smart-Factory · D-RMS VN: 네이티브 브릿지 기반 WebView 내재화, 푸시 · 인증 · 업데이트 연동
 
-#### 03. 서버 5종 내재화 | Spring Boot 3.5 · Java 21
+#### 03. 더존비즈온 — React Native 신규 앱 4종 개발 | 회사 최초 React Native 도입
+**React Native · TypeScript · Redux**
+
+- 블록체인 간편계약 앱(WehagoOne): 과기정통부 · KISA 「2020 블록체인 민간주도 국민 프로젝트」 선정 과제 성공
+- 블록체인 DID 앱(우리도): 강원도청 플랫폼 — 음성/화상 통화 · 명함 촬영 구현 · 출시
+- 전자서명 인증 앱(WehagoSign): 회사 최초 React Native 프로젝트 1인 개발 · Redux-Observable 아키텍처 설계
+- 직원관리 앱(Nahago): 임금명세서 · 출퇴근 · 연말정산, 본인확인(PIN · Face ID · FIDO · NICE) · 전자서명 인증서
+- 사내 React Native · Redux · Kotlin 교육과 테크톡 주도
+
+#### 04. 서버 5종 내재화 | Spring Boot 3.5 · Java 21
 - 게이트웨이 2종: Morpheus 종속 제거, 영업물류 285개 API 1인 전환
 - GreenNet 모바일 서버: 레거시 Spring 전환, API 62개 · 테스트 126개로 기존 동작 동일성 검증 (진행 중)
 - 관리자 · 푸시 서버: 외부 솔루션의 관리 콘솔 · 푸시 대신 쓰는 서버를 자체 구축
 - 인증 · 권한 강화, 시크릿 외부화, 민감정보 마스킹 및 배포 자동화
 
-#### 04. 웹 프론트엔드 3종 개발 | Vue 3 · Nuxt 3 · React
+#### 05. 웹 프론트엔드 3종 개발 | Vue 3 · Nuxt 3 · React
 - 인터배터리 전시 키오스크: 18일 만에 1인 개발, 3개 국어 · 3D 인터랙션 · PWA 오프라인 지원 → 현장 장애 0건 · 부스 참여자 전년 대비 5배
 - 모바일 관리자 웹: Nuxt 3 SSR · Pinia 기반 BFF, 토큰 자동 갱신, ZIP 번들 분석, Highcharts 대시보드
 - 사내 앱스토어: React 기반 한 · 영 통합 반응형 앱 다운로드 페이지 리뉴얼
 
-#### 05. 개인 풀스택 서비스 3종 | 기획부터 운영까지 1인
+#### 06. 개인 풀스택 서비스 3종 | 기획부터 운영까지 1인
 - Quietown (3D 메타버스): React Three Fiber · Cloudflare Durable Objects · WebSocket · WebRTC 실시간 멀티플레이 · 화상 대화, Supabase RLS
 - kfit.style (AI 퍼스널컬러): React · Cloudflare Workers · Supabase · Polar 기반 AI 진단 · 인증 · 결제 서비스
 - AI 픽셀 오피스 (멀티 에이전트): Next.js 16 · Claude Agent SDK · SSE 기반 AI 개발팀 구현 → 지시 한 번으로 앱 4개 · 파일 29개를 약 6분 만에 수정한 시연 사례
 
-#### 06. AI 개발 자동화 | 설계 · 구현 · 검증 반복 루프 구축
+#### 07. AI 개발 자동화 | 설계 · 구현 · 검증 반복 루프 구축
 - [앱 내재화](https://portfolio-website-7e1.pages.dev/automation#internalization-design): AI 디자인 → 구현 → 구 · 신 앱 비교 검증으로 GreenNet 16개 서비스 2주 내 전환
 - [웹 성능 최적화](https://portfolio-website-7e1.pages.dev/automation#web-performance): Chrome 자동 측정 · 개선 · 재검증 → 인트로 LCP 7.75초 → 2.05초 (약 74% 개선)
 - [유지보수 자동화](https://portfolio-website-7e1.pages.dev/automation#app-maintenance): 멀티 에이전트 기반 여러 앱 동시 수정 · 점검 및 반복 업무 효율화
 
-#### 07. 해커톤 · 기술 리더십
-- NHN GAME × AI 해커톤: Who is AI? 예선 59:1 경쟁률로 본선 진출 — 3인 팀 PM · 실시간 서버 · 3D 월드 담당
-- 48시간 본선: Who is Human — Three.js 기반 물리 미니게임 4종 구현
-- 더존비즈온: 회사 최초 React Native 도입, WehagoSign · WehagoOne · 우리도 · Nahago 신규 앱 4종 개발
-- 블록체인 정부 선정 과제 수행, 사내 React Native · Redux · Kotlin 교육 및 테크톡 주도
+#### 08. NHN GAME × AI 해커톤 | 3D 실시간 멀티플레이 웹 게임 2종
+- Who is AI? (예선작): 59:1 경쟁률로 본선 진출 — 3인 팀 PM · 실시간 서버 · 3D 월드 담당
+- Who is Human (48시간 본선작): Three.js 기반 물리 미니게임 4종 구현
 
-#### 08. 서비스 운영 · 모니터링 | 모바일 · 서버 · AWS
+#### 09. 서비스 운영 · 모니터링 | 모바일 · 서버 · AWS
 - 사내 앱 10종+ 운영, iOS · Android 배포 · 정책 대응 및 기능 개선 100건+
 - AWS 인프라 관리, DB 메이저 버전 무중단 업그레이드, 보안 · 인증 체계 개선
 - Crashlytics · Clarity · GA4 · Sentry: 사용자 세션 · 오류 연계 분석 및 UX 개선
