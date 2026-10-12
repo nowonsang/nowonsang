@@ -134,29 +134,30 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 
 ### ⭐ 핵심 경험 및 주요 성과
 
-#### 01. 자체 모바일 플랫폼 구축 | Technical Lead · 핵심 2인 · 5개월
+#### 01. 자체 모바일 플랫폼 구축 | 모바일 Technical Lead · 핵심 2인 · 5개월
 **React Native · Vue 3 · Spring Boot 3.5 · AWS**
 
-- 외부 모바일 솔루션(Morpheus)을 대체할 자체 풀스택 플랫폼 아키텍처 설계 · 구축
-- 앱 공통 기반 · 관리자 웹 · 푸시 서버 · AWS CI/CD를 하나의 운영 체계로 통합
-- 관리자 웹에서 OTA · 버전 · 디바이스 · 푸시 · 앱 배포를 직접 관리 — 이후 앱 · 서버 내재화의 기반
+- 외부 솔루션(Morpheus)을 대체할 자체 플랫폼 기반을 핵심 2인 · 5개월 만에 구축 — 한 번에 갈아엎는 대신 앱 공통 기반 · 관리자 웹 · 푸시 서버 · AWS CI/CD를 먼저 세워, 이후 앱 · 서버 내재화가 이 위에서 진행
+- 외부 솔루션 콘솔에 묶여 있던 앱 운영을 사내 관리자 웹으로 — OTA · 버전 · 디바이스 · 푸시 · 앱 배포를 직접 관리
 
 #### 02. 모바일 앱 5종 내재화 | 1인 개발 · React Native / Expo
 - D-Sales: 주문 · 출고 · 배송 · A/S 78개 화면을 51일 만에 1인 재구축, Kotlin · Swift SSO 모듈 개발, Maestro E2E 검증
-- D-Partners: 파트너사 업무 90여 화면 1인 개발, 네이티브 파일 처리 · 인앱 업데이트 · 자체 OTA 구현
+- D-Partners: 대리점 · 파트너사용 90여 화면 1인 내재화 — Kotlin · Swift 네이티브 모듈(인앱 업데이트 · 파일 처리) · 자체 OTA, 반복되던 누락은 lint 단계 계약 검사로 차단
 - GreenNet: 전자결재 · 게시판 등 16개 서비스 2주 만에 내재화, 기존 UX · 기능 유지
-- Smart-Factory · D-RMS VN: 네이티브 브릿지 기반 WebView 내재화, 푸시 · 인증 · 업데이트 연동
+- Smart-Factory · D-RMS VN: 웹앱 2종을 2개월 만에 1인 내재화 — 웹을 다시 만드는 대신 JS ↔ Native 브릿지로 푸시 · 로그인 · 업데이트 체크 연결
+- 공통 안정화: 캐시 없던 화면 조회를 TanStack Query로 캐싱, 잠금 상태에서 안 오던 푸시는 Kotlin WakeLock 모듈로 해결, Sentry · Clarity · GA로 오류 · 사용자 행동 추적
+- 공통 배포 · 검증: 외부 OTA 대신 JS와 이미지까지 바꾸는 자체 OTA + Enterprise 앱 버전 비교 자동 업데이트, 업무 로직을 md 명세로 쪼개 설계 → 구 · 신 앱을 시뮬레이터에 함께 돌려 비교하는 루프로 개선
 
 #### 03. 서버 5종 구축 · 내재화 | Spring Boot 3.5 · Java 21
-- 게이트웨이 2종: Morpheus 종속 제거, 영업물류 285개 API 1인 전환
+- 게이트웨이 2종: 영업물류 API 285개를 29일 만에 1인 전환 — 기존 API 계약을 1:1로 지키고 원본 매핑과 대조해 앱 수정은 최소화, Morpheus 의존 제거, API는 Swagger로 문서화
 - GreenNet 모바일 서버: 레거시 Spring 전환, API 62개 · 테스트 126개로 기존 동작 동일성 검증 (진행 중)
-- 관리자 · 푸시 서버 신규 구축: 관리자 API 110여 개, FCM HTTP v1 멀티캐스트 · 무효 토큰 자동 정리
-- 인증 · 권한 강화, 시크릿 외부화, 민감정보 마스킹 및 배포 자동화
+- 관리자 · 푸시 서버 신규 구축: 관리자 API 110여 개 — 외부 콘솔 · 푸시를 사내로 옮기고, 푸시는 수신자별 성공/실패 기록 · 무효 토큰 자동 제외 (FCM HTTP v1)
+- 시크릿 · 로그: DB 접속 정보 등 시크릿은 Parameter Store로 분리(저장소엔 값 없는 템플릿만) · gitleaks 검사, Logback으로 요청별 사용자 행동 로그를 남겨 오류 추적 · 민감정보는 마스킹
 
 #### 04. 웹 프론트엔드 3종 개발 | Vue 3 · Nuxt 3 · React
 - 인터배터리 전시 키오스크: 18일 만에 1인 개발, 3개 국어 · 3D 인터랙션 · PWA 오프라인 → 현장 장애 0건 · 부스 참여자 전년 대비 5배
-- 모바일 관리자 웹: 토큰 자동 갱신 · OTA 번들 분석 · 통계 대시보드 구현 (Nuxt 3 SSR · BFF · Highcharts)
-- 사내 앱스토어: 한 · 영 반응형 앱 통합 다운로드 페이지 리뉴얼 (React)
+- 모바일 관리자 웹: 외부 콘솔 없이 OTA · 푸시 · 배포를 사내에서 관리 — SSR 서버 라우트(BFF)로 백엔드를 숨기고 토큰은 만료 전 자동 갱신, OTA 번들은 브라우저에서 ZIP을 열어 버전 자동 추출 (Nuxt 3 · Highcharts)
+- 사내 앱스토어: 설치 버튼 하나뿐이던 페이지를 앱별 카드 · Android/iOS 설치로 리뉴얼 — 내재화로 늘어난 사내 앱을 한 곳에서 설치 (React · 한/영 반응형)
 
 #### 05. AI 개발 · 업무 자동화 | 설계 · 구현 · 검증 반복 루프 구축
 - [앱 내재화](https://portfolio-website-7e1.pages.dev/automation#internalization-design): AI 시안 생성 → 구현 → 구 · 신 앱 주요 화면 26개 자동 비교 루프로 디자이너 없이 리뉴얼 화면 확보
@@ -172,9 +173,9 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 **React Native · TypeScript · Redux**
 
 - 블록체인 간편계약 앱(WehagoOne): 과기정통부 · KISA 「2020 블록체인 민간주도 국민 프로젝트」 선정 과제 성공
-- 블록체인 DID 앱(우리도): 강원도청 플랫폼 — 음성/화상 통화 · 명함 촬영 구현 · 출시
-- 전자서명 인증 앱(WehagoSign): 회사 최초 React Native 프로젝트 1인 개발 · Redux-Observable 아키텍처 설계
-- 직원관리 앱(Nahago): 임금명세서 · 출퇴근 · 연말정산, 본인확인(PIN · Face ID · FIDO · NICE) · 전자서명 인증서
+- 블록체인 DID 앱(우리도): 강원도청 플랫폼 출시 — 별도 앱 없이 통화하도록 Jitsi-Meet(WebRTC)을 앱에 탑재, 명함은 촬영으로 등록
+- 전자서명 인증 앱(WehagoSign): 회사 최초 React Native 프로젝트 1인 개발 — 이후 나하고 · 우리도 · 위하고원 3개 앱으로 확산, Sign-Then-Encrypt(RSA + AES + 서명) 설계
+- 직원관리 앱(Nahago): 급여 데이터를 다루는 앱에 맞게 강한 본인확인(PIN · Face ID · FIDO · NICE)과 생체 간편 로그인을 함께 설계, 전자서명 인증서 개발
 - 사내 React Native · Redux · Kotlin 교육과 테크톡 주도
 
 #### 08. NHN GAME × AI 해커톤 | 59:1 본선 진출 · 3D 웹 게임 2종
@@ -182,9 +183,10 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 - Who is Human (48시간 본선작): Three.js 기반 물리 미니게임 4종 구현
 
 #### 09. 서비스 운영 · 모니터링 | 모바일 · 서버 · AWS
-- 사내 앱 10종+ 운영, iOS · Android 배포 · 정책 대응 및 기능 개선 100건+
-- AWS 인프라 관리, DB 메이저 버전 무중단 업그레이드, 보안 · 인증 체계 개선
+- 사내 앱 10종+ 무중단 운영 · 기능 개선 100건+ — Android SDK 29 → 36 · 16KB 페이지 크기 · iOS Xcode 27 · FCM v1 전환과 최신 보안 패치는 지원 종료 전에 선제 대응
+- 운영 DB 메이저 버전을 서비스 중단 없이 업그레이드하고, 사내 앱 로그인을 M365 OAuth 통합 인증으로 전환 (AWS)
 - 사용자 세션 · 오류를 연결해 재현 어려운 오류 추적 · UX 개선 (Crashlytics · Clarity · GA4 · Sentry)
+- ELB 이중화 + 도메인별 라우팅으로 한 EC2에서 포트별 Spring Boot 서버 운영, CodePipeline(CodeCommit → CodeBuild → CodeDeploy) 자동 배포 · WAF 접근 통제 (AWS)
 - CPU · Heap · 디스크 정기 점검 · 튜닝으로 리소스 부족 장애 예방 (WhaTap · CloudWatch)
 ### 🏆 수상 · 대외 활동
 - **NHN 해커톤 NAN 2026 : Next AI Network — 59:1 경쟁률 본선 진출** · 예선작 「Who is AI?」로 본선 진출 → 본선작 「Who is Human」 48시간 개발 ([기사](https://www.todaymild.com/news/articleView.html?idxno=38410))
@@ -246,6 +248,7 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
   <img src="https://img.shields.io/badge/Gradle%20%C2%B7%20Maven-02303A?style=flat-square&logo=gradle&logoColor=white" />
   <img src="https://img.shields.io/badge/DDD%204%EA%B3%84%EC%B8%B5%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-555555?style=flat-square" />
   <img src="https://img.shields.io/badge/RESTful%20API%20%C2%B7%20Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black" />
+  <img src="https://img.shields.io/badge/SLF4J%20%C2%B7%20Logback%20(%EC%82%AC%EC%9A%A9%EC%9E%90%20%ED%96%89%EB%8F%99%20%EB%A1%9C%EA%B7%B8)-555555?style=flat-square" />
   <img src="https://img.shields.io/badge/JUnit%205%20%C2%B7%20Mockito%20%C2%B7%20MockMvc-25A162?style=flat-square&logo=junit5&logoColor=white" />
   <img src="https://img.shields.io/badge/MySQL%20%C2%B7%20Aurora%20%C2%B7%20MS--SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
   <img src="https://img.shields.io/badge/Supabase%20(PostgreSQL)-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
@@ -258,8 +261,9 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 
 #### ☁️ Infra & DevOps
 <p>
-  <img src="https://img.shields.io/badge/AWS%20(EC2%20%C2%B7%20RDS%20%C2%B7%20S3%20%C2%B7%20CloudFront%20%C2%B7%20CI%2FCD)-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS%20CodeCommit%20%C2%B7%20CodeBuild%20%C2%B7%20CodeDeploy-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS%20(EC2%20%C2%B7%20ELB%20%C2%B7%20RDS%20%C2%B7%20S3%20%C2%B7%20CloudFront)-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS%20WAF%20%C2%B7%20Parameter%20Store-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS%20CodePipeline%20(CodeCommit%20%C2%B7%20CodeBuild%20%C2%B7%20CodeDeploy)-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring%20Cloud%20AWS-6DB33F?style=flat-square&logo=spring&logoColor=white" />
   <img src="https://img.shields.io/badge/Cloudflare%20(Pages%20%C2%B7%20Workers%20%C2%B7%20Durable%20Objects%20%C2%B7%20WAF)-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
   <img src="https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white" />
