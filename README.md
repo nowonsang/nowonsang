@@ -145,8 +145,9 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 - D-Partners: 대리점 · 파트너사용 90여 화면 1인 재개발 — Kotlin · Swift 네이티브 모듈(인앱 업데이트 · 파일 처리) · 자체 OTA, 반복되던 누락은 lint 단계 계약 검사로 차단
 - GreenNet: 직접 운영해 온 그룹웨어의 전자결재 · 게시판 등 16개 서비스를 2주 만에 재개발, 기존 UX · 기능 유지
 - Smart-Factory · D-RMS VN: 웹앱 2종을 2개월 만에 1인 네이티브 셸로 전환 — 웹을 다시 만드는 대신 JS ↔ Native 브릿지로 푸시 · 로그인 · 업데이트 체크 연결
-- 공통 안정화: 캐시 없던 화면 조회를 TanStack Query로 캐싱, 잠금 상태에서 안 오던 푸시는 Kotlin WakeLock 모듈로 해결, Sentry · Clarity · GA로 오류 · 사용자 행동 추적
-- 공통 배포 · 검증: 외부 OTA 대신 JS와 이미지까지 바꾸는 자체 OTA + Enterprise 앱 버전 비교 자동 업데이트, 업무 로직을 md 명세로 쪼개 설계 → 구 · 신 앱을 시뮬레이터에 함께 돌려 비교하는 루프로 개선
+- 운영하며 느낀 불편도 함께 개선: 잠금 상태에서 안 오던 푸시는 Kotlin WakeLock 모듈로, 여러 번 눌러야 닿던 정보는 요약 카드 · 검색 · 칩으로(GreenNet), 화면마다 다시 불러오던 조회는 TanStack Query 캐싱 · 로그인 직후 미리 조회로, 클레임 · A/S처럼 섞여 있던 처리 흐름은 업무 유형별 화면 분기로(D-Sales)
+- 재현 안 되던 오류 추적: 기기 · OS마다 달라 재현되지 않던 오류를 Sentry로 감지하고, Clarity 세션을 Crashlytics · GA4 오류에 연결해 사용자가 겪은 화면 흐름 그대로 재생
+- 공통 배포 · 검증: 수정마다 하던 앱 재배포 대신 JS와 이미지까지 바꾸는 자체 OTA + Enterprise 앱 버전 비교 자동 업데이트, 업무 로직을 md 명세로 쪼개 설계 → 구 · 신 앱을 시뮬레이터에 함께 돌려 비교하는 루프로 개선
 
 #### 03. 서버 5종 구축 · 이관 | Spring Boot 3.5 · Java 21
 - 게이트웨이 2종: 영업물류 API 285개를 29일 만에 1인 전환 — 기존 API 계약을 1:1로 지키고 원본 매핑과 대조해 앱 수정은 최소화, Morpheus 의존 제거, API는 Swagger로 문서화
@@ -185,7 +186,7 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 #### 09. 서비스 운영 · 모니터링 | 모바일 · 서버 · AWS
 - 사내 앱 10종+ 무중단 운영 · 기능 개선 100건+ — Android SDK 29 → 36 · 16KB 페이지 크기 · iOS Xcode 27 · FCM v1 전환과 최신 보안 패치는 지원 종료 전에 선제 대응
 - 운영 DB 메이저 버전을 서비스 중단 없이 업그레이드하고, 사내 앱 로그인을 M365 OAuth 통합 인증으로 전환 (AWS)
-- 사용자 세션 · 오류를 연결해 재현 어려운 오류 추적 · UX 개선 (Crashlytics · Clarity · GA4 · Sentry)
+- 기기 · OS마다 달라 재현되지 않던 앱 오류를 사용자 세션과 연결해 화면 흐름 그대로 재생 · 추적하고 UX 개선 (Sentry · Clarity · Crashlytics · GA4)
 - ELB 이중화 + 도메인별 라우팅으로 한 EC2에서 포트별 Spring Boot 서버 운영, CodePipeline(CodeCommit → CodeBuild → CodeDeploy) 자동 배포 · WAF 접근 통제 (AWS)
 - CPU · Heap · 디스크 정기 점검 · 튜닝으로 리소스 부족 장애 예방 (WhaTap · CloudWatch)
 ### 🏆 수상 · 대외 활동
