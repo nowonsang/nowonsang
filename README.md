@@ -129,7 +129,7 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 
 | 회사 | 기간 | 역할 |
 | :--- | :---: | :--- |
-| 🏢 **동화기업(주)** | 2022.07 ~ 현재 | Web · Mobile 풀스택 Technical Lead — 사내 앱 10개+ · 웹 · 서버 · 인프라 사실상 단독 운영, 상용 솔루션 내재화 주도 |
+| 🏢 **동화기업(주)** | 2022.07 ~ 현재 | Web · Mobile 풀스택 Technical Lead — 사내 앱 10개+를 약 3년간 단독 운영(이후 후임 합류로 2인), 웹 · 서버 · 인프라까지 맡아, 외부 솔루션에 묶인 앱 · 서버를 새로 개발해 옮기는 내재화 주도 |
 | 🏢 **(주)더존비즈온** | 2019.07 ~ 2022.01 | 모바일 개발 — React Native 사내 최초 도입 · 크로스플랫폼 신규 앱 4종 개발 · Android B2B 앱 유지보수, 사내 기술 교육 주도 |
 
 ### ⭐ 핵심 경험 및 주요 성과
@@ -137,18 +137,18 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 #### 01. 자체 모바일 플랫폼 구축 | 모바일 Technical Lead · 핵심 2인 · 5개월
 **React Native · Vue 3 · Spring Boot 3.5 · AWS**
 
-- 외부 솔루션(Morpheus)을 대체할 자체 플랫폼 기반을 핵심 2인 · 5개월 만에 구축 — 한 번에 갈아엎는 대신 앱 공통 기반 · 관리자 웹 · 푸시 서버 · AWS CI/CD를 먼저 세워, 이후 앱 · 서버 내재화가 이 위에서 진행
+- 외부 솔루션(Morpheus)을 대체할 자체 플랫폼 기반을 핵심 2인 · 5개월 만에 구축 — 한 번에 갈아엎는 대신 앱 공통 기반 · 관리자 웹 · 푸시 서버 · AWS CI/CD를 먼저 세워, 이후 앱 재개발 · 서버 이관이 이 위에서 진행
 - 외부 솔루션 콘솔에 묶여 있던 앱 운영을 사내 관리자 웹으로 — OTA · 버전 · 디바이스 · 푸시 · 앱 배포를 직접 관리
 
-#### 02. 모바일 앱 5종 내재화 | 1인 개발 · React Native / Expo
-- D-Sales: 주문 · 출고 · 배송 · A/S 78개 화면을 51일 만에 1인 재구축, Kotlin · Swift SSO 모듈 개발, Maestro E2E 검증
-- D-Partners: 대리점 · 파트너사용 90여 화면 1인 내재화 — Kotlin · Swift 네이티브 모듈(인앱 업데이트 · 파일 처리) · 자체 OTA, 반복되던 누락은 lint 단계 계약 검사로 차단
-- GreenNet: 전자결재 · 게시판 등 16개 서비스 2주 만에 내재화, 기존 UX · 기능 유지
-- Smart-Factory · D-RMS VN: 웹앱 2종을 2개월 만에 1인 내재화 — 웹을 다시 만드는 대신 JS ↔ Native 브릿지로 푸시 · 로그인 · 업데이트 체크 연결
+#### 02. 모바일 앱 5종 재개발 · 전환 | 1인 개발 · React Native / Expo
+- D-Sales: 직접 운영해 온 영업 앱의 주문 · 출고 · 배송 · A/S 78개 화면을 51일 만에 1인 재개발, Kotlin · Swift SSO 모듈 개발, Maestro E2E 검증
+- D-Partners: 대리점 · 파트너사용 90여 화면 1인 재개발 — Kotlin · Swift 네이티브 모듈(인앱 업데이트 · 파일 처리) · 자체 OTA, 반복되던 누락은 lint 단계 계약 검사로 차단
+- GreenNet: 직접 운영해 온 그룹웨어의 전자결재 · 게시판 등 16개 서비스를 2주 만에 재개발, 기존 UX · 기능 유지
+- Smart-Factory · D-RMS VN: 웹앱 2종을 2개월 만에 1인 네이티브 셸로 전환 — 웹을 다시 만드는 대신 JS ↔ Native 브릿지로 푸시 · 로그인 · 업데이트 체크 연결
 - 공통 안정화: 캐시 없던 화면 조회를 TanStack Query로 캐싱, 잠금 상태에서 안 오던 푸시는 Kotlin WakeLock 모듈로 해결, Sentry · Clarity · GA로 오류 · 사용자 행동 추적
 - 공통 배포 · 검증: 외부 OTA 대신 JS와 이미지까지 바꾸는 자체 OTA + Enterprise 앱 버전 비교 자동 업데이트, 업무 로직을 md 명세로 쪼개 설계 → 구 · 신 앱을 시뮬레이터에 함께 돌려 비교하는 루프로 개선
 
-#### 03. 서버 5종 구축 · 내재화 | Spring Boot 3.5 · Java 21
+#### 03. 서버 5종 구축 · 이관 | Spring Boot 3.5 · Java 21
 - 게이트웨이 2종: 영업물류 API 285개를 29일 만에 1인 전환 — 기존 API 계약을 1:1로 지키고 원본 매핑과 대조해 앱 수정은 최소화, Morpheus 의존 제거, API는 Swagger로 문서화
 - GreenNet 모바일 서버: 레거시 Spring 전환, API 62개 · 테스트 126개로 기존 동작 동일성 검증 (진행 중)
 - 관리자 · 푸시 서버 신규 구축: 관리자 API 110여 개 — 외부 콘솔 · 푸시를 사내로 옮기고, 푸시는 수신자별 성공/실패 기록 · 무효 토큰 자동 제외 (FCM HTTP v1)
@@ -157,10 +157,10 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 #### 04. 웹 프론트엔드 3종 개발 | Vue 3 · Nuxt 3 · React
 - 인터배터리 전시 키오스크: 18일 만에 1인 개발, 3개 국어 · 3D 인터랙션 · PWA 오프라인 → 현장 장애 0건 · 부스 참여자 전년 대비 5배
 - 모바일 관리자 웹: 외부 콘솔 없이 OTA · 푸시 · 배포를 사내에서 관리 — SSR 서버 라우트(BFF)로 백엔드를 숨기고 토큰은 만료 전 자동 갱신, OTA 번들은 브라우저에서 ZIP을 열어 버전 자동 추출 (Nuxt 3 · Highcharts)
-- 사내 앱스토어: 설치 버튼 하나뿐이던 페이지를 앱별 카드 · Android/iOS 설치로 리뉴얼 — 내재화로 늘어난 사내 앱을 한 곳에서 설치 (React · 한/영 반응형)
+- 사내 앱스토어: 설치 버튼 하나뿐이던 페이지를 앱별 카드 · Android/iOS 설치로 리뉴얼 — 재개발 · 전환으로 늘어난 사내 앱을 한 곳에서 설치 (React · 한/영 반응형)
 
 #### 05. AI 개발 · 업무 자동화 | 설계 · 구현 · 검증 반복 루프 구축
-- [앱 내재화](https://portfolio-website-7e1.pages.dev/automation#internalization-design): AI 시안 생성 → 구현 → 구 · 신 앱 주요 화면 26개 자동 비교 루프로 디자이너 없이 리뉴얼 화면 확보
+- [앱 재개발](https://portfolio-website-7e1.pages.dev/automation#internalization-design): AI 시안 생성 → 구현 → 구 · 신 앱 주요 화면 26개 자동 비교 루프로 디자이너 없이 리뉴얼 화면 확보
 - [웹 성능 최적화](https://portfolio-website-7e1.pages.dev/automation#web-performance): Chrome 자동 측정 · 원인별 개선 · 같은 조건 재측정 → 인트로 LCP 7.75초 → 2.05초 (약 74% 개선)
 - [유지보수 자동화](https://portfolio-website-7e1.pages.dev/automation#app-maintenance): 정책 · SDK가 바뀔 때마다 앱별로 반복하던 수정을 지시 한 줄로 동시 적용, 앱별 버전 비교 보고서 자동 정리
 
