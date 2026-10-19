@@ -134,8 +134,8 @@ React · React Native 중심으로 웹 · 앱 화면부터 Spring Boot 서버 ·
 
 ### ⭐ 핵심 경험 및 주요 성과
 
-#### 01. 자체 모바일 플랫폼 구축 | 모바일 Technical Lead · 핵심 2인 · 5개월
-**React Native · Vue 3 · Spring Boot 3.5 · AWS**
+#### 01. React Native 기반 자체 모바일 플랫폼 구축 | 모바일 Technical Lead · 핵심 2인 · 5개월
+**React Native · Expo · Spring Boot 3.5 · AWS**
 
 - 외부 솔루션(Morpheus)을 대체할 자체 플랫폼 기반을 핵심 2인 · 5개월 만에 구축 — 한 번에 갈아엎는 대신 앱 공통 기반 · 관리자 웹 · 푸시 서버 · AWS CI/CD를 먼저 세워, 이후 앱 재개발 · 서버 이관이 이 위에서 진행
 - 외부 솔루션 콘솔에 묶여 있던 앱 운영을 사내 관리자 웹으로 — OTA · 버전 · 디바이스 · 푸시 · 앱 배포를 직접 관리
