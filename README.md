@@ -2,10 +2,10 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=노원상%20·%20nowonsang&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Web%20%2B%20Mobile%20Fullstack%20Developer&descSize=18&descAlignY=58" width="100%" />
 
-### 안녕하세요! 웹 + 모바일 풀스택 개발자 **노원상**입니다 👋
+### 안녕하세요! React · React Native 중심 풀스택 개발자 **노원상**입니다 👋
 
-Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 풀사이클을 다루는 **7년 차** 개발자입니다.<br/>
-상용 모바일 솔루션을 대체할 자체 플랫폼을 구축했고, AI 도구를 실무에 깊게 적용해 1인이 팀 규모의 결과를 냅니다.
+React · React Native 중심으로 웹 · 앱 화면부터 Spring Boot 서버 · AWS 인프라까지 직접 만들고 운영하는 **7년 차** 개발자입니다.<br/>
+외부 모바일 솔루션에 묶여 있던 앱 · 서버를 직접 재개발 · 이관해, 사내에서 바로 고치고 배포할 수 있게 바꿔 왔습니다.
 
 <a href="https://portfolio-website-7e1.pages.dev/" target="_blank">
   <img src="https://img.shields.io/badge/🌐%20포트폴리오-접속-6C63FF?style=for-the-badge&logoColor=white" alt="포트폴리오 접속" />
@@ -155,10 +155,11 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 - 관리자 · 푸시 서버 신규 구축: 관리자 API 110여 개 — 외부 콘솔 · 푸시를 사내로 옮기고, 푸시는 수신자별 성공/실패 기록 · 무효 토큰 자동 제외 (FCM HTTP v1)
 - 시크릿 · 로그: DB 접속 정보 등 시크릿은 Parameter Store로 분리(저장소엔 값 없는 템플릿만) · gitleaks 검사, Logback으로 요청별 사용자 행동 로그를 남겨 오류 추적 · 민감정보는 마스킹
 
-#### 04. 웹 프론트엔드 3종 개발 | Vue 3 · Nuxt 3 · React
-- 인터배터리 전시 키오스크: 18일 만에 1인 개발, 3개 국어 · 3D 인터랙션 · PWA 오프라인 → 현장 장애 0건 · 부스 참여자 전년 대비 5배
-- 모바일 관리자 웹: 외부 콘솔 없이 OTA · 푸시 · 배포를 사내에서 관리 — SSR 서버 라우트(BFF)로 백엔드를 숨기고 토큰은 만료 전 자동 갱신, OTA 번들은 브라우저에서 ZIP을 열어 버전 자동 추출 (Nuxt 3 · Highcharts)
+#### 04. 웹 프론트엔드 개발 | React · Next.js 중심 · 실무 Vue 3 · Nuxt 3
+- React · Next.js 웹 5종: 개인 서비스 Quietown · kfit.style · AI 픽셀 오피스(1인), 해커톤 3D 웹 게임 Who is AI? · Who is Human(3인 팀) (React 19 · Next.js App Router · React Three Fiber)
 - 사내 앱스토어: 설치 버튼 하나뿐이던 페이지를 앱별 카드 · Android/iOS 설치로 리뉴얼 — 재개발 · 전환으로 늘어난 사내 앱을 한 곳에서 설치 (React · 한/영 반응형)
+- 인터배터리 전시 키오스크: 18일 만에 1인 개발, 3개 국어 · 3D 인터랙션 · PWA 오프라인 → 현장 장애 0건 · 부스 참여자 전년 대비 5배 (Vue 3 · Nuxt 3)
+- 모바일 관리자 웹: 외부 콘솔 없이 OTA · 푸시 · 배포를 사내에서 관리 — SSR 서버 라우트(BFF)로 백엔드를 숨기고 토큰은 만료 전 자동 갱신, OTA 번들은 브라우저에서 ZIP을 열어 버전 자동 추출 (Nuxt 3 · Highcharts)
 
 #### 05. AI 개발 · 업무 자동화 | 설계 · 구현 · 검증 반복 루프 구축
 - [앱 재개발](https://portfolio-website-7e1.pages.dev/automation#internalization-design): AI 시안 생성 → 구현 → 구 · 신 앱 주요 화면 26개 자동 비교 루프로 디자이너 없이 리뉴얼 화면 확보
@@ -183,12 +184,14 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 - Who is AI? (예선작 · 14일): 3인 팀 PM · 실시간 멀티플레이 서버 · 3D 월드 담당
 - Who is Human (48시간 본선작): Three.js 기반 물리 미니게임 4종 구현
 
-#### 09. 서비스 운영 · 모니터링 | 모바일 · 서버 · AWS
+#### 09. 서비스 운영 · 테스트 · 모니터링 | 모바일 · 웹 · 서버 · AWS
 - 사내 앱 10종+ 무중단 운영 · 기능 개선 100건+ — Android SDK 29 → 36 · 16KB 페이지 크기 · iOS Xcode 27 · FCM v1 전환과 최신 보안 패치는 지원 종료 전에 선제 대응
 - 운영 DB 메이저 버전을 서비스 중단 없이 업그레이드하고, 사내 앱 로그인을 M365 OAuth 통합 인증으로 전환 (AWS)
+- E2E · 자동 테스트로 배포 전 회귀 확인 — 앱은 Maestro, 웹은 Playwright로 주요 시나리오 E2E 검증, 서버는 JUnit 5 · MockMvc 계약 테스트
 - 기기 · OS마다 달라 재현되지 않던 앱 오류를 사용자 세션과 연결해 화면 흐름 그대로 재생 · 추적하고 UX 개선 (Sentry · Clarity · Crashlytics · GA4)
 - ELB 이중화 + 도메인별 라우팅으로 한 EC2에서 포트별 Spring Boot 서버 운영, CodePipeline(CodeCommit → CodeBuild → CodeDeploy) 자동 배포 · WAF 접근 통제 (AWS)
 - CPU · Heap · 디스크 정기 점검 · 튜닝으로 리소스 부족 장애 예방 (WhaTap · CloudWatch)
+
 ### 🏆 수상 · 대외 활동
 - **NHN 해커톤 NAN 2026 : Next AI Network — 59:1 경쟁률 본선 진출** · 예선작 「Who is AI?」로 본선 진출 → 본선작 「Who is Human」 48시간 개발 ([기사](https://www.todaymild.com/news/articleView.html?idxno=38410))
 - 2018 한림대학교 SW 솔루션 공모전 금상 (팀)
@@ -227,17 +230,17 @@ Android · iOS · Web · Server · Infra — 기획부터 배포·운영까지 �
 <p>
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/Next.js%20(App%20Router)-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vue%203%20%C2%B7%20Nuxt%203%20(SSR%20%C2%B7%20Nitro)-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript%20%C2%B7%20JavaScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML%20%C2%B7%20CSS-E34F26?style=flat-square&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
   <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
   <img src="https://img.shields.io/badge/React%20Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white" />
   <img src="https://img.shields.io/badge/Zustand%20%C2%B7%20TanStack%20Query-443E38?style=flat-square" />
-  <img src="https://img.shields.io/badge/Pinia%20%C2%B7%20Composition%20API-FFD859?style=flat-square&logo=vuedotjs&logoColor=black" />
   <img src="https://img.shields.io/badge/Three.js%20%C2%B7%20React%20Three%20Fiber-000000?style=flat-square&logo=threedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/glTF%20%EC%B5%9C%EC%A0%81%ED%99%94%20(gltf--transform%20%C2%B7%20Draco%20%C2%B7%20meshopt)-555555?style=flat-square" />
   <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vue%203%20%C2%B7%20Nuxt%203%20(SSR%20%C2%B7%20Nitro)-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pinia%20%C2%B7%20Composition%20API-FFD859?style=flat-square&logo=vuedotjs&logoColor=black" />
   <img src="https://img.shields.io/badge/Highcharts%20%C2%B7%20jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white" />
 </p>
 
